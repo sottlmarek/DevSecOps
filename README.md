@@ -21,7 +21,7 @@ This library contains list of tools and methodologies accompanied with resources
 
 - [Defintition](#what-is-devsecops)
 - [Tooling](#tooling)
-- [Precommit anmd threat modeling](#pre-commit-time-tools)
+- [Precommit and threat modeling](#pre-commit-time-tools)
 - [SAST](#sast)
 - [DAST](#dast)
 - [Supply chain and dependencies](#oss-and-dependecy-management)
