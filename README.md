@@ -59,11 +59,11 @@ Modern DevSecOps tools allow to use Threat modeling as code or generation of thr
 | **git-secrets** | [https://github.com/awslabs/git-secrets](https://github.com/awslabs/git-secrets) | AWS labs tool preventing you from committing secrets to a git repository  |![Git Secrets](https://img.shields.io/github/stars/awslabs/git-secrets?style=for-the-badge) |
 | **git-hound** | [https://github.com/tillson/git-hound](https://github.com/tillson/git-hound) | Seachers secrets in git |![git-hound](https://img.shields.io/github/stars/tillson/git-hound?style=for-the-badge) | 
 | **goSDL** | [https://github.com/slackhq/goSDL](https://github.com/slackhq/goSDL) |Security Development Lifecycle checklist   |![goSDL](https://img.shields.io/github/stars/slackhq/goSDL?style=for-the-badge) |
-| **ThreatPlaybook** | [https://github.com/we45/ThreatPlaybook](hhttps://github.com/we45/ThreatPlaybook) |Threat modeling as code   |![GitLeaks](https://img.shields.io/github/stars/we45/ThreatPlaybook?style=for-the-badge) |
+| **ThreatPlaybook** | [https://github.com/we45/ThreatPlaybook](https://github.com/we45/ThreatPlaybook) |Threat modeling as code   |![GitLeaks](https://img.shields.io/github/stars/we45/ThreatPlaybook?style=for-the-badge) |
 | **Threat Dragon** | [https://github.com/OWASP/threat-dragon](https://github.com/OWASP/threat-dragon) | OWASP Threat modeling tool  |![ThreatDragon](https://img.shields.io/github/stars/OWASP/threat-dragon?style=for-the-badge) |
 | **threatspec** | [https://github.com/threatspec/threatspec](https://github.com/threatspec/threatspec) | Threat modeling as code  |![threatspec](https://img.shields.io/github/stars/threatspec/threatspec?style=for-the-badge) |
 | **pytm** | [https://github.com/izar/pytm](https://github.com/izar/pytm) | A Pythonic framework for threat modeling  |![pytm](https://img.shields.io/github/stars/izar/pytm?style=for-the-badge) |
-| **Threagile** | [https://github.com/Threagile/threagile](hhttps://github.com/Threagile/threagile) | A Pythonic framework for threat modeling  |![Threagile](https://img.shields.io/github/stars/Threagile/threagile?style=for-the-badge) |
+| **Threagile** | [https://github.com/Threagile/threagile](https://github.com/Threagile/threagile) | A Pythonic framework for threat modeling  |![Threagile](https://img.shields.io/github/stars/Threagile/threagile?style=for-the-badge) |
 | **MAL-lang** | [https://mal-lang.org/#what ](https://mal-lang.org/#what ) | A language to create cyber threat modeling systems for specific domains  |![Mal](https://img.shields.io/github/stars/mal-lang/exampleLang?style=for-the-badge) |
 | **Microsoft Threat modleing tool** | [https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | Microsoft threat modeling tool  |![MS Threat modeling tool](https://img.shields.io/github/stars/microsoft/threat-modeling-templates?style=for-the-badge) |
 | **Talisman** | [https://github.com/thoughtworks/talisman](https://github.com/thoughtworks/talisman) | A tool to detect and prevent secrets from getting checked in |![Talisman](https://img.shields.io/github/stars/thoughtworks/talisman?style=for-the-badge) |
@@ -134,10 +134,10 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Zap proxy** | [https://owasp.org/www-project-zap/](https://owasp.org/www-project-zap/) | Zap proxy providing various docker containers for CI/CD pipeline|![ZAP](https://img.shields.io/github/stars/zaproxy/zaproxy?style=for-the-badge) | 
 | **Wapiti** | [https://github.com/wapiti-scanner/wapiti ](https://github.com/wapiti-scanner/wapiti ) | Light pipeline ready scanning tool |![Wapiti](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=for-the-badge) | 
 | **Nuclei** | [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Template based security scanneing tool |![Nuclei](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=for-the-badge) | 
-| **purpleteam** | [https://github.com/purpleteam-labs/purpleteam](hhttps://github.com/purpleteam-labs/purpleteam) | CLI DAST tool incubator project |![purpleteam](https://img.shields.io/github/stars/purpleteam-labs/purpleteam?style=for-the-badge) | 
+| **purpleteam** | [https://github.com/purpleteam-labs/purpleteam](https://github.com/purpleteam-labs/purpleteam) | CLI DAST tool incubator project |![purpleteam](https://img.shields.io/github/stars/purpleteam-labs/purpleteam?style=for-the-badge) | 
 | **oss-fuzz** | [https://github.com/google/oss-fuzz ](https://github.com/google/oss-fuzz ) | OSS-Fuzz: Continuous Fuzzing for Open Source Software |![osss-fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) | 
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
-| **skipfish** | [https://code.google.com/archive/p/skipfish/](hhttps://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
+| **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
 
 ## Kubernetes 
 
@@ -151,7 +151,12 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **kube-score** | [https://github.com/zegl/kube-score](https://github.com/zegl/kube-score) | Static code analysis of your Kubernetes object definitions |![kube-score](https://img.shields.io/github/stars/zegl/kube-score?style=for-the-badge) | 
 | **kube-hunter** | [https://github.com/aquasecurity/kube-hunter](https://github.com/aquasecurity/kube-hunter) | Active scanner for k8s (purple)  |![kube-hunter](https://img.shields.io/github/stars/aquasecurity/kube-hunter?style=for-the-badge) | 
 | **Calico** | [https://github.com/projectcalico/calico](https://github.com/projectcalico/calico) | Calico is an open source networking and network security solution for containers  |![Calico](https://img.shields.io/github/stars/projectcalico/calico?style=for-the-badge) | 
-
+| **Kyverno** | [https://github.com/kyverno/kyverno/](https://github.com/kyverno/kyverno) | Kyverno is a policy engine designed for Kubernetes |![kyverno](https://img.shields.io/github/stars/kyverno/kyverno?style=for-the-badge) | 
+| **Krane** | [https://github.com/appvia/krane](https://github.com/appvia/krane) | Simple Kubernetes RBAC static analysis tool |![krane](https://img.shields.io/github/stars/appvia/krane?style=for-the-badge) | 
+| **Starboard** | [https://github.com/aquasecurity/starboard](https://github.com/aquasecurity/starboard ) | Starboard inegrates security tools by outputs into Kubernetes CRDs |![starboard](https://img.shields.io/github/stars/aquasecurity/starboard?style=for-the-badge) | 
+| **Gatekeeper** | [https://github.com/open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Open policy agent gatekeeper for k8s |![gatekeeper](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=for-the-badge) | 
+| **Inspektor-gadget** | [https://github.com/kinvolk/inspektor-gadget](https://github.com/kinvolk/inspektor-gadget ) | Collection of tools (or gadgets) to debug and inspect k8s |![inspector](https://img.shields.io/github/stars/kinvolk/inspektor-gadget?style=for-the-badge) | 
+| **kube-linter** | [https://github.com/stackrox/kube-linter ](https://github.com/stackrox/kube-linter) | Static analysis for Kubernetes |![kube-linter](https://img.shields.io/github/stars/stackrox/kube-linter?style=for-the-badge) | 
 
 ## Containers 
 
@@ -159,17 +164,20 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | :---------- | :---------- | :---------- | :----------: |
 | **Harbor** | [https://github.com/goharbor/harbor](https://github.com/goharbor/harbor) | Trusted cloud native registry project|![Harbor](https://img.shields.io/github/stars/goharbor/harbor?style=for-the-badge) | 
 | **Anchore** | [https://github.com/anchore/anchore-engine](https://github.com/anchore/anchore-engine) | Centralized service for inspection, analysis, and certification of container images |![Anchore](https://img.shields.io/github/stars/anchore/anchore-engine?style=for-the-badge) | 
-| **Clair** | [https://github.com/quay/clair](https://github.com/quay/clair) | Docker vulnerability scanner|![ZAP](https://img.shields.io/github/stars/goharbor/harbor?style=for-the-badge) | 
+| **Clair** | [https://github.com/quay/clair](https://github.com/quay/clair) | Docker vulnerability scanner|![Clair](https://img.shields.io/github/stars/goharbor/harbor?style=for-the-badge) | 
 | **Docker bench** | [https://github.com/docker/docker-bench-security ](https://github.com/docker/docker-bench-security ) | Docker benchmarking agaist CIS|![docker bench](https://img.shields.io/github/stars/goharbor/harbor?style=for-the-badge)| 
 | **Falco** | [https://github.com/falcosecurity/falco](https://github.com/falcosecurity/falco) | Container runtime protection |![Falco](https://img.shields.io/github/stars/falcosecurity/falco?style=for-the-badge) | 
 | **Trivy** | [https://github.com/aquasecurity/trivy](https://github.com/aquasecurity/trivy) | Comprehensive scanner for vulnerabilities in container images |![Trivy](https://img.shields.io/github/stars/aquasecurity/trivy?style=for-the-badge) | 
-| **Notary** | [https://github.com/notaryproject/notary](https://github.com/notaryproject/notary) | Docker signing|![ZAP](https://img.shields.io/github/stars/notaryproject/notary?style=for-the-badge) | 
+| **Notary** | [https://github.com/notaryproject/notary](https://github.com/notaryproject/notary) | Docker signing|![Notary](https://img.shields.io/github/stars/notaryproject/notary?style=for-the-badge) | 
+| **watchtower** | [https://github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) | Updates the running version of your containerized app |![watchtower](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
+
+
 
 ## Multi-Cloud 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
-| **Cloudsploit** | [https://github.com/aquasecurity/cloudsploit](https://github.com/aquasecurity/cloudsploit) | Dragoneye Indeni AWS scanner |![Cloudsploit](https://img.shields.io/github/stars/aquasecurity/cloudsploit?style=for-the-badge) |
+| **Cloudsploit** | [https://github.com/aquasecurity/cloudsploit](https://github.com/aquasecurity/cloudsploit) | Detection of security risks in cloud infrastructure |![Cloudsploit](https://img.shields.io/github/stars/aquasecurity/cloudsploit?style=for-the-badge) |
 | **ScoutSuite** | [https://github.com/nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) | NCCgroup mutlicloud scanning tool |![ScoutSuite](https://img.shields.io/github/stars/nccgroup/ScoutSuite?style=for-the-badge) |
 | **CloudCustodian** | [https://github.com/cloud-custodian/cloud-custodian/](https://github.com/cloud-custodian/cloud-custodian/) | Multicloud security analysis framework |![CloudCustodian](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) | 
 
