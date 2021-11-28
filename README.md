@@ -3,10 +3,14 @@
 ## Contribution rules
 If you want to contribute to this Library of knowledge please create proper PR (Pull request) with description what you are adding following these set of rules: 
 
-* Clear description of PR
+* Clear description of PR (What tool, why, stars, maturity and topic) 
 * Keep it simple 
 * Fact over feelings or personal opinions
 * Add source and follow the Library style
+* Avoid duplicits - one tool, one topic 
+* Try to make bigger updates then on tool link
+* Currently Open-source only
+* Add only active projects 
 
 _Note:_ Currently this is early version of the library. I recommend PR after first official release. 
 
