@@ -108,6 +108,22 @@ Dependecny security testing and analysis is very important part of disocvering s
 | **Dependabot** | [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | Automated dependency updates built into GitHub providign security alerts |![Dependabot](https://img.shields.io/github/stars/dependabot/dependabot-core?style=for-the-badge)| 
 | **npm-check** | [https://www.npmjs.com/package/npm-check](https://www.npmjs.com/package/npm-check) | Check for outdated, incorrect, and unused dependencies. |![npm-check](https://img.shields.io/github/stars/dylang/npm-check?style=for-the-badge)| 
 
+## Supply chain specific tools 
+
+Supply chain is often target of attacks. Which libraries you use can have massive impact on security of final product (artifacts). CI (Continous integration must be monitored inside the taks and jobs in pipeline steps. Integrity checks must be stored out od the system and in ideal case several validation runs with comparison of integry hashes / or attestation must be performed. 
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Tekton chains** | [https://github.com/tektoncd/chains](https://github.com/tektoncd/chains/) | Kubernetes Custom Resource Definition (CRD) controller that allows you to manage your supply chain security in Tekton. |![Chains](https://img.shields.io/github/stars/tektoncd/chains?style=for-the-badge) | 
+| **in-toto** | [https://github.com/in-toto/attestation/tree/v0.1.0/spec](https://github.com/in-toto/attestation/tree/v0.1.0/spec) | An in-toto attestation is authenticated metadata about one or more software artifacts |![in-toto](https://img.shields.io/github/stars/in-toto/attestation?style=for-the-badge) | 
+| **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
+
+
+https://github.com/in-toto/attestation/tree/v0.1.0/spec 
+https://github.com/slsa-framework/slsa/blob/main/docs/index.md 
+
+
+
 ## SAST
 
 Static code review tools working with source code and looking for known patterns and relationships of methods, variables, classes and libriaries. SAST works with the raw code and usualy not with build packages. 
@@ -197,6 +213,16 @@ AWS specific DevSecOps tooling. Tools here coverdifferent areas like inventory m
 | **Komiser** | [https://github.com/mlabouardy/komiser](https://github.com/mlabouardy/komiser) | Monitoring dashboard for costs and security|![komiser](https://img.shields.io/github/stars/mlabouardy/komiser?style=for-the-badge) |
 | **Cloudsplaining** | [https://github.com/salesforce/cloudsplaining](https://github.com/salesforce/cloudsplaining) | IAM analysis framework |![cloudsplaining](https://img.shields.io/github/stars/salesforce/cloudsplaining?style=for-the-badge) |
 | **ElectricEye** | [https://github.com/jonrau1/ElectricEye](https://github.com/jonrau1/ElectricEye) | Continuously monitor your AWS services for configurations |![ElectricEye](https://img.shields.io/github/stars/jonrau1/ElectricEye?style=for-the-badge) |
+| **Cloudmapper** | [https://github.com/duo-labs/cloudmapper](https://github.com/duo-labs/cloudmapper ) | CloudMapper helps you analyze your Amazon Web Services (AWS) environments |![cloudmapper](https://img.shields.io/github/stars/duo-labs/cloudmapper?style=for-the-badge) | 
+| **cartography** | [https://github.com/lyft/cartography](https://github.com/lyft/cartography) | Consolidates AWS infrastructure assets and the relationships between them in an intuitive graph |![cartography](https://img.shields.io/github/stars/lyft/cartography?style=for-the-badge) | 
+| **policy_sentry** | [https://github.com/salesforce/policy_sentry](https://github.com/salesforce/policy_sentry ) | IAM Least Privilege Policy Generator |![policycentry](https://img.shields.io/github/stars/salesforce/policy_sentry?style=for-the-badge) | 
+| **AirIAM** | [https://github.com/bridgecrewio/AirIAM](https://github.com/bridgecrewio/AirIAM) | IAM Least Privilege anmalyzer and Terraformer |![AirIam](https://img.shields.io/github/stars/bridgecrewio/AirIAM?style=for-the-badge) | 
+| **StreamAlert** | [https://github.com/airbnb/streamalert](https://github.com/airbnb/streamalert ) | AirBnB serverless, real-time data analysis framework which empowers you to ingest, analyze, and alert  |![StreamAlert](https://img.shields.io/github/stars/airbnb/streamalert?style=for-the-badge) | 
+| **CloudQuery** | [https://github.com/cloudquery/cloudquery/](https://github.com/cloudquery/cloudquery/) | AirBnB serverless, real-time data analysis framework which empowers you to ingest, analyze, and alert  |![CloudQuery](https://img.shields.io/github/stars/cloudquery/cloudquery?style=for-the-badge) | 
+| **S3Scanner** | [https://github.com/sa7mon/S3Scanner/](https://github.com/cloudquery/cloudquery/) | A tool to find open S3 buckets and dump their contents  |![S3Scanner](https://img.shields.io/github/stars/sa7mon/S3Scanner?style=for-the-badge) | 
+| **aws-iam-authenticator** | [https://github.com/kubernetes-sigs/aws-iam-authenticator/](https://github.com/kubernetes-sigs/aws-iam-authenticator/) | A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster |![authenticator](https://img.shields.io/github/stars/kubernetes-sigs/aws-iam-authenticator?style=for-the-badge) | 
+| **kube2iam** | [https://github.com/jtblin/kube2iam/](https://github.com/jtblin/kube2iam/) | A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster |![kube2iam](https://img.shields.io/github/stars/jtblin/kube2iam?style=for-the-badge) | 
+| **AWS open source security samples** | [Official AWS opensource repo](https://github.com/orgs/aws-samples/repositories?language=&q=security&sort=&type=) |Collection of official AWS open-source resources | ![Amazon AWS](https://img.shields.io/static/v1?style=for-the-badge&message=Amazon+AWS&color=232F3E&logo=Amazon+AWS&logoColor=FFFFFF&label=)| 
 
 
 ## Policy as code
@@ -267,9 +293,11 @@ AWS blog:
 Microsoft whitepapers: 
 * https://azure.microsoft.com/mediahandler/files/resourcefiles/6-tips-to-integrate-security-into-your-devops-practices/DevSecOps_Report_Tips_D6_fm.pdf 
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-azure 
+* https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github 
 
 # Other
 Training - https://www.practical-devsecops.com/devsecops-university/ 
+
 DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_HftNM7Fy0ksEOUHc-Q)
 
 # License
