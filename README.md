@@ -4,13 +4,14 @@
 If you want to contribute to this Library of knowledge please create proper PR (Pull request) with description what you are adding following these set of rules: 
 
 * Clear description of PR (What tool, why, stars, maturity and topic) 
-* Keep it simple 
+* Keep it simple - Fill the description properly
 * Fact over feelings or personal opinions
 * Add source and follow the Library style
 * Avoid duplicits - one tool, one topic 
 * Try to make bigger updates then on tool link
 * Currently Open-source only
 * Add only active projects 
+* Add only security tools 
 
 _Note:_ Currently this is early version of the library. I recommend PR after first official release. 
 
@@ -110,7 +111,7 @@ Dependecny security testing and analysis is very important part of disocvering s
 | **bundler-audit** | [https://github.com/rubysec/bundler-audit](https://github.com/rubysec/bundler-audit) | Patch-level verification for bundler |![Bundler audit](https://img.shields.io/github/stars/rubysec/bundler-audit?style=for-the-badge)| 
 | **gemnasium** | [https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium ](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium ) | Dependency Scanning Analyzer based on Gemnasium || 
 | **Dependabot** | [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | Automated dependency updates built into GitHub providign security alerts |![Dependabot](https://img.shields.io/github/stars/dependabot/dependabot-core?style=for-the-badge)| 
-| **Renovatebot** | [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate) | Automated dependency updates, multi-platform and multi-language |![Renovatebot](https://img.shields.io/github/stars/renovatebot/renovate?style=for-the-badge)| 
+| **Renovatebot** | [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate) | Automated dependency updates, patches multi-platform and multi-language |![Renovatebot](https://img.shields.io/github/stars/renovatebot/renovate?style=for-the-badge)| 
 | **npm-check** | [https://www.npmjs.com/package/npm-check](https://www.npmjs.com/package/npm-check) | Check for outdated, incorrect, and unused dependencies. |![npm-check](https://img.shields.io/github/stars/dylang/npm-check?style=for-the-badge)| 
 
 ## Supply chain specific tools 
