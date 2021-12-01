@@ -256,6 +256,7 @@ Reading and manifestos: https://principlesofchaos.org/
 | **Gremlin** | [https://github.com/gremlin/gremlin-python](https://github.com/gremlin/gremlin-python) | Chaos enginnering SaaS platform with free plan and some open source libraries |![Gremlin](https://img.shields.io/github/stars/gremlin/gremlin-python?style=for-the-badge) |
 | **AWS FIS samples** | [https://github.com/aws-samples/aws-fault-injection-simulator-samples](https://github.com/aws-samples/aws-fault-injection-simulator-samples) | AWS Fault injection simulator samples |![AWS](https://img.shields.io/github/stars/aws-samples/aws-fault-injection-simulator-samples?style=for-the-badge) |
 | **CloudNuke** | [https://github.com/gruntwork-io/cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) | CLI tool to delete all resources in an AWS account |![CloudNuke](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=for-the-badge) |
+| **AWSweeper** | [https://github.com/jckuester/awsweeper](https://github.com/jckuester/awsweeper) | CLI tool to delete all resources in an AWS account built on the [Terraform AWS Provider](https://github.com/terraform-providers/terraform-provider-aws) and [awsls](https://github.com/jckuester/awsls) |![AWSweeper](https://img.shields.io/github/stars/jckuester/awsweeper?style=for-the-badge) |
 
 ## Infrastructure as code security 
 
