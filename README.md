@@ -29,6 +29,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [Precommit and threat modeling](#pre-commit-time-tools)
 - [SAST](#sast)
 - [DAST](#dast)
+- [Orchestration](#orchestration)
 - [Supply chain and dependencies](#oss-and-dependecy-management)
 - [Infrastructure as code](#infrastructure-as-code-security)
 - [Containers security](#containers) 
@@ -123,11 +124,7 @@ Supply chain is often target of attacks. Which libraries you use can have massiv
 | **Tekton chains** | [https://github.com/tektoncd/chains](https://github.com/tektoncd/chains/) | Kubernetes Custom Resource Definition (CRD) controller that allows you to manage your supply chain security in Tekton. |![Chains](https://img.shields.io/github/stars/tektoncd/chains?style=for-the-badge) | 
 | **in-toto** | [https://github.com/in-toto/attestation/tree/v0.1.0/spec](https://github.com/in-toto/attestation/tree/v0.1.0/spec) | An in-toto attestation is authenticated metadata about one or more software artifacts |![in-toto](https://img.shields.io/github/stars/in-toto/attestation?style=for-the-badge) | 
 | **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
-
-
-https://github.com/in-toto/attestation/tree/v0.1.0/spec 
-https://github.com/slsa-framework/slsa/blob/main/docs/index.md 
-
+| **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![SLSA](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)| 
 
 
 ## SAST
@@ -161,6 +158,13 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **oss-fuzz** | [https://github.com/google/oss-fuzz ](https://github.com/google/oss-fuzz ) | OSS-Fuzz: Continuous Fuzzing for Open Source Software |![osss-fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) | 
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
 | **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
+
+## Continuous delivery security
+
+| Name | URL | Description | Meta |
+| :---------- | :---------- | :---------- | :----------: |
+| **SecureCodeBox** | [https://github.com/secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) | Toolchain for continuous scanning of applications and infrastructure |![SCB](https://img.shields.io/github/stars/secureCodeBox/secureCodeBox?style=for-the-badge) | 
+| **OpenSCAP** | [https://github.com/OpenSCAP/openscap](https://github.com/OpenSCAP/openscap) | Open Source Security Compliance Solution |![oscap](https://img.shields.io/github/stars/OpenSCAP/openscap?style=for-the-badge) | 
 
 ## Kubernetes 
 
@@ -270,8 +274,16 @@ Scanning your infrascructure when it is only code helps shift-left the security.
 | **tfsec** | [https://github.com/aquasecurity/tfsec](https://github.com/aquasecurity/tfsec) | tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform CDK support |![tfsec](https://img.shields.io/github/stars/aquasecurity/tfsec?style=for-the-badge) | 
 | **terrascan** | [https://github.com/accurics/terrascan](https://github.com/accurics/terrascan) | Terrascan is a static code analyzer for Infrastructure as Code |![terrascan](https://img.shields.io/github/stars/accurics/terrascan?style=for-the-badge) | 
 | **cfsec** | [https://github.com/aquasecurity/cfsec](https://github.com/aquasecurity/cfsec) | cfsec scans CloudFormation configuration files for security issues |![cfsec](https://img.shields.io/github/stars/aquasecurity/cfsec?style=for-the-badge) | 
-| **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
+| **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
 
+## Orchestration 
+
+Event driven security help to drive, automate and execute tasks for security procceses. The tools here and not dedicated security tools but are helping to automate and orchestrate security tasks or are part of most modern security automation frameworks or tools. 
+
+| Name | URL | Description | Meta |
+| :---------- | :---------- | :---------- | :----------: |
+| **StackStorm** | [https://github.com/StackStorm/st2](https://github.com/StackStorm/st2) | Platform for integration and automation across services and tools supporting event driven security |![StackStorm](https://img.shields.io/github/stars/StackStorm/st2?style=for-the-badge) | 
+| **Camunda** | [https://github.com/camunda/camunda-bpm-platform](https://github.com/camunda/camunda-bpm-platform) | Workflow and process automation |![Camunda](https://img.shields.io/github/stars/camunda/camunda-bpm-platform?style=for-the-badge)| 
 
 # Methodologies, whitepapers and architecture
 
@@ -307,7 +319,7 @@ Training - https://www.practical-devsecops.com/devsecops-university/
 DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_HftNM7Fy0ksEOUHc-Q)
 
 # License
-Apache 2.0 License
+MIT license
 
 Marek Šottl (c) 2021
 
