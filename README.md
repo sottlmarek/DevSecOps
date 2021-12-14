@@ -315,6 +315,13 @@ Microsoft whitepapers:
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github 
 
 # Other
+
+Here are the other links and resources that do not fit in any previous category. They can meet multiple categries in time or help you in your learning. 
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
+
 Training - https://www.practical-devsecops.com/devsecops-university/ 
 
 DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_HftNM7Fy0ksEOUHc-Q)
