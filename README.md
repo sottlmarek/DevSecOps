@@ -77,6 +77,7 @@ Modern DevSecOps tools allow to use Threat modeling as code or generation of thr
 | **Sonarlint** | [https://github.com/SonarSource/sonarlint-core](https://github.com/SonarSource/sonarlint-core) |  Sonar linting utility for IDE |![Sonarlint](https://img.shields.io/github/stars/SonarSource/sonarlint-core?style=for-the-badge)|
 | **DevSkim** | [https://github.com/microsoft/DevSkim](https://github.com/microsoft/DevSkim) |  DevSkim is a framework of IDE extensions and language analyzers that provide inline security analysis |![DevSkim](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge)|
 | **detect-secrets** | [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) |  Detects secrets in your codebase |![DevSkim](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge)| 
+| **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
 
 ## Secrets management 
 Secrets management includes managing, versioning, encrypting, discovery, rotating, provisioning of passwords, certificates, configuration values and other types of secrets. 
