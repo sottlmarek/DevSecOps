@@ -1,5 +1,5 @@
 ---
-name: DevSecOps issue tamplase
+name: DevSecOps issue tamplate
 about: 'Describe this issue template''s purpose here. '
 title: Issue template
 labels: ''
