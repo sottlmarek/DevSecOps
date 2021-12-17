@@ -24,7 +24,7 @@ This library contains list of tools and methodologies accompanied with resources
 
 # Table of Contents
 
-- [Defintition](#what-is-devsecops)
+- [Definition](#what-is-devsecops)
 - [Tooling](#tooling)
 - [Precommit and threat modeling](#pre-commit-time-tools)
 - [SAST](#sast)
@@ -42,7 +42,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [License](#license) 
 
 # What is DevSecOps 
-DevSecOps fosuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing diffeent methods, techniess and processes backed mainly with tooling focusing on developer / secuirty experience. 
+DevSecOps focuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing different methods, techniess and processes backed mainly with tooling focusing on developer / security experience. 
 
 DevSecOps takes care that security is part of every stage of DevOps loop - Plan, Code, Build, Test, Release, Deploy, Operate, Monitor. 
 
@@ -56,14 +56,14 @@ Various definitions:
 
 ## Pre-commit time tools
 
-In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you simulate and dicover potential gaps before you start to develop the software or during the process.
+In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you simulate and discover potential gaps before you start to develop the software or during the process.
 
 Modern DevSecOps tools allow to use Threat modeling as code or generation of threat models based on the existing code annotations. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **git-secrets** | [https://github.com/awslabs/git-secrets](https://github.com/awslabs/git-secrets) | AWS labs tool preventing you from committing secrets to a git repository  |![Git Secrets](https://img.shields.io/github/stars/awslabs/git-secrets?style=for-the-badge) |
-| **git-hound** | [https://github.com/tillson/git-hound](https://github.com/tillson/git-hound) | Seachers secrets in git |![git-hound](https://img.shields.io/github/stars/tillson/git-hound?style=for-the-badge) | 
+| **git-hound** | [https://github.com/tillson/git-hound](https://github.com/tillson/git-hound) | Searchers secrets in git |![git-hound](https://img.shields.io/github/stars/tillson/git-hound?style=for-the-badge) | 
 | **goSDL** | [https://github.com/slackhq/goSDL](https://github.com/slackhq/goSDL) |Security Development Lifecycle checklist   |![goSDL](https://img.shields.io/github/stars/slackhq/goSDL?style=for-the-badge) |
 | **ThreatPlaybook** | [https://github.com/we45/ThreatPlaybook](https://github.com/we45/ThreatPlaybook) |Threat modeling as code   |![GitLeaks](https://img.shields.io/github/stars/we45/ThreatPlaybook?style=for-the-badge) |
 | **Threat Dragon** | [https://github.com/OWASP/threat-dragon](https://github.com/OWASP/threat-dragon) | OWASP Threat modeling tool  |![ThreatDragon](https://img.shields.io/github/stars/OWASP/threat-dragon?style=for-the-badge) |
@@ -71,7 +71,7 @@ Modern DevSecOps tools allow to use Threat modeling as code or generation of thr
 | **pytm** | [https://github.com/izar/pytm](https://github.com/izar/pytm) | A Pythonic framework for threat modeling  |![pytm](https://img.shields.io/github/stars/izar/pytm?style=for-the-badge) |
 | **Threagile** | [https://github.com/Threagile/threagile](https://github.com/Threagile/threagile) | A Pythonic framework for threat modeling  |![Threagile](https://img.shields.io/github/stars/Threagile/threagile?style=for-the-badge) |
 | **MAL-lang** | [https://mal-lang.org/#what ](https://mal-lang.org/#what ) | A language to create cyber threat modeling systems for specific domains  |![Mal](https://img.shields.io/github/stars/mal-lang/exampleLang?style=for-the-badge) |
-| **Microsoft Threat modleing tool** | [https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | Microsoft threat modeling tool  |![MS Threat modeling tool](https://img.shields.io/github/stars/microsoft/threat-modeling-templates?style=for-the-badge) |
+| **Microsoft Threat modeling tool** | [https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool) | Microsoft threat modeling tool  |![MS Threat modeling tool](https://img.shields.io/github/stars/microsoft/threat-modeling-templates?style=for-the-badge) |
 | **Talisman** | [https://github.com/thoughtworks/talisman](https://github.com/thoughtworks/talisman) | A tool to detect and prevent secrets from getting checked in |![Talisman](https://img.shields.io/github/stars/thoughtworks/talisman?style=for-the-badge) |
 | **SEDATED** | [https://github.com/OWASP/SEDATED](https://github.com/OWASP/SEDATED) | The SEDATED® Project (Sensitive Enterprise Data Analyzer To Eliminate Disclosure) focuses on preventing sensitive data such as user credentials and tokens from being pushed to Git. |![Talisman](https://img.shields.io/github/stars/OWASP/SEDATED?style=for-the-badge) |
 | **Sonarlint** | [https://github.com/SonarSource/sonarlint-core](https://github.com/SonarSource/sonarlint-core) |  Sonar linting utility for IDE |![Sonarlint](https://img.shields.io/github/stars/SonarSource/sonarlint-core?style=for-the-badge)|
@@ -118,7 +118,7 @@ Dependency security testing and analysis is very important part of disocvering s
 
 ## Supply chain specific tools 
 
-Supply chain is often target of attacks. Which libraries you use can have massive impact on security of final product (artifacts). CI (Continous integration must be monitored inside the taks and jobs in pipeline steps. Integrity checks must be stored out od the system and in ideal case several validation runs with comparison of integry hashes / or attestation must be performed. 
+Supply chain is often target of attacks. Which libraries you use can have massive impact on security of final product (artifacts). CI (Continuos integration must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out od the system and in ideal case several validation runs with comparison of integry hashes / or attestation must be performed. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -130,7 +130,7 @@ Supply chain is often target of attacks. Which libraries you use can have massiv
 
 ## SAST
 
-Static code review tools working with source code and looking for known patterns and relationships of methods, variables, classes and libriaries. SAST works with the raw code and usualy not with build packages. 
+Static code review tools working with source code and looking for known patterns and relationships of methods, variables, classes and libraries. SAST works with the raw code and usually not with build packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -148,13 +148,13 @@ OWASP curated list of SAST tools : https://owasp.org/www-community/Source_Code_A
 
 ## DAST
 
-Dynamic application security testing (DAST) is a type of application testing (in most cases web) that checks your application from the outside by active communication and analysis of the responses based on injected inputs. DAST tools rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running and is actively deploed on the server (or serverless function).
+Dynamic application security testing (DAST) is a type of application testing (in most cases web) that checks your application from the outside by active communication and analysis of the responses based on injected inputs. DAST tools rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running and is actively deployed on the server (or serverless function).
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **Zap proxy** | [https://owasp.org/www-project-zap/](https://owasp.org/www-project-zap/) | Zap proxy providing various docker containers for CI/CD pipeline|![ZAP](https://img.shields.io/github/stars/zaproxy/zaproxy?style=for-the-badge) | 
 | **Wapiti** | [https://github.com/wapiti-scanner/wapiti ](https://github.com/wapiti-scanner/wapiti ) | Light pipeline ready scanning tool |![Wapiti](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=for-the-badge) | 
-| **Nuclei** | [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Template based security scanneing tool |![Nuclei](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=for-the-badge) | 
+| **Nuclei** | [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Template based security scanning tool |![Nuclei](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=for-the-badge) | 
 | **purpleteam** | [https://github.com/purpleteam-labs/purpleteam](https://github.com/purpleteam-labs/purpleteam) | CLI DAST tool incubator project |![purpleteam](https://img.shields.io/github/stars/purpleteam-labs/purpleteam?style=for-the-badge) | 
 | **oss-fuzz** | [https://github.com/google/oss-fuzz ](https://github.com/google/oss-fuzz ) | OSS-Fuzz: Continuous Fuzzing for Open Source Software |![osss-fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) | 
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
