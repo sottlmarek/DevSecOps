@@ -98,7 +98,7 @@ Secrets management includes managing, versioning, encrypting, discovery, rotatin
 
 ## OSS and Dependecy management
 
-Dependecny security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of Continuous integration. Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
+Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of Continuous integration. Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
