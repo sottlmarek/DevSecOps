@@ -201,8 +201,6 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Cosign** | [https://github.com/sigstore/cosign](https://github.com/sigstore/cosign) | Container signing|![Cosign](https://img.shields.io/github/stars/sigstore/cosign?style=for-the-badge) | 
 | **watchtower** | [https://github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) | Updates the running version of your containerized app |![watchtower](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
 
-
-
 ## Multi-Cloud 
 
 | Name | URL | Description | Meta | 
@@ -234,6 +232,14 @@ AWS specific DevSecOps tooling. Tools here coverdifferent areas like inventory m
 | **aws-iam-authenticator** | [https://github.com/kubernetes-sigs/aws-iam-authenticator/](https://github.com/kubernetes-sigs/aws-iam-authenticator/) | A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster |![authenticator](https://img.shields.io/github/stars/kubernetes-sigs/aws-iam-authenticator?style=for-the-badge) | 
 | **kube2iam** | [https://github.com/jtblin/kube2iam/](https://github.com/jtblin/kube2iam/) | A tool to use AWS IAM credentials to authenticate to a Kubernetes cluster |![kube2iam](https://img.shields.io/github/stars/jtblin/kube2iam?style=for-the-badge) | 
 | **AWS open source security samples** | [Official AWS opensource repo](https://github.com/orgs/aws-samples/repositories?language=&q=security&sort=&type=) |Collection of official AWS open-source resources | ![Amazon AWS](https://img.shields.io/static/v1?style=for-the-badge&message=Amazon+AWS&color=232F3E&logo=Amazon+AWS&logoColor=FFFFFF&label=)| 
+
+## Google cloud platform 
+
+GCP specific DevSecOps tooling. Tools here coverdifferent areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Forseti** | [https://github.com/forseti-security/forseti-security](https://github.com/forseti-security/forseti-security) | Complex security orchestration and scanning platfrom | ![Forseti](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge)| 
 
 
 ## Policy as code
@@ -285,6 +291,7 @@ Event driven security help to drive, automate and execute tasks for security pro
 | :---------- | :---------- | :---------- | :----------: |
 | **StackStorm** | [https://github.com/StackStorm/st2](https://github.com/StackStorm/st2) | Platform for integration and automation across services and tools supporting event driven security |![StackStorm](https://img.shields.io/github/stars/StackStorm/st2?style=for-the-badge) | 
 | **Camunda** | [https://github.com/camunda/camunda-bpm-platform](https://github.com/camunda/camunda-bpm-platform) | Workflow and process automation |![Camunda](https://img.shields.io/github/stars/camunda/camunda-bpm-platform?style=for-the-badge)| 
+| **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
 
 # Methodologies, whitepapers and architecture
 
@@ -304,15 +311,23 @@ AWS DevOps whitepapers:
 * https://d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf
 * https://d1.awsstatic.com/whitepapers/DevOps/infrastructure-as-code.pdf
 * https://d1.awsstatic.com/whitepapers/microservices-on-aws.pdf
-* https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf
+* https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf 
+* https://d1.awsstatic.com/Marketplace/solutions-center/downloads/AppSec-DevSecOps-AWS-SANS-eBook.pdf (AWS + SANS whitepaper)
 
 AWS blog: 
 * https://aws.amazon.com/blogs/devops/building-end-to-end-aws-devsecops-ci-cd-pipeline-with-open-source-sca-sast-and-dast-tools/
+* https://aws.amazon.com/blogs/devops/building-an-end-to-end-kubernetes-based-devsecops-software-factory-on-aws/ 
 
 Microsoft whitepapers: 
 * https://azure.microsoft.com/mediahandler/files/resourcefiles/6-tips-to-integrate-security-into-your-devops-practices/DevSecOps_Report_Tips_D6_fm.pdf 
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-azure 
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github 
+
+GCP whitepapers:
+* https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security
+* https://cloud.google.com/security/overview/whitepaper
+* https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf
+* https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security
 
 # Other
 
