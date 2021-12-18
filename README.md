@@ -323,11 +323,11 @@ Microsoft whitepapers:
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-azure 
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github 
 
-GCP whitepapers:
-* https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security
-* https://cloud.google.com/security/overview/whitepaper
-* https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf
-* https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security
+GCP whitepapers: 
+* https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security 
+* https://cloud.google.com/security/overview/whitepaper 
+* https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf 
+* https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security 
 
 # Other
 
