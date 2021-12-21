@@ -125,7 +125,8 @@ Supply chain is often target of attacks. Which libraries you use can have massiv
 | **Tekton chains** | [https://github.com/tektoncd/chains](https://github.com/tektoncd/chains/) | Kubernetes Custom Resource Definition (CRD) controller that allows you to manage your supply chain security in Tekton. |![Chains](https://img.shields.io/github/stars/tektoncd/chains?style=for-the-badge) | 
 | **in-toto** | [https://github.com/in-toto/attestation/tree/v0.1.0/spec](https://github.com/in-toto/attestation/tree/v0.1.0/spec) | An in-toto attestation is authenticated metadata about one or more software artifacts |![in-toto](https://img.shields.io/github/stars/in-toto/attestation?style=for-the-badge) | 
 | **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
-| **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![SLSA](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)| 
+| **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![SLSA](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
+| **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![SLSA](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)| 
 
 
 ## SAST
