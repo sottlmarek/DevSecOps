@@ -1,26 +1,26 @@
 # Ultimate DevSecOps library
 
 ## Contribution rules
-If you want to contribute to this Library of knowledge please create proper PR (Pull request) with description what you are adding following these set of rules: 
+If you want to contribute to this library of knowledge please create proper PR (Pull Request) with description what you are adding following these set of rules: 
 
-* Clear description of PR (What tool, why, stars, maturity and topic) 
+* Clear description of PR (which tool, why, number of stars, maturity and topic) 
 * Keep it simple - Fill the description properly
 * Fact over feelings or personal opinions
-* Add source and follow the Library style
+* Add source and follow the library style
 * Avoid duplicits - one tool, one topic 
 * Try to make bigger updates then on tool link
-* Currently Open-source only
+* Currently open-source only
 * Add only active projects 
 * Add only security tools 
 
-_Note:_ Currently this is early version of the library. I recommend PR after first official release. 
+_Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
 
-**DevSecOps Library info:** 
+**DevSecOps library info:** 
 
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
-This library contains list of tools and methodologies accompanied with resources. The main goal is provide to the engineers guide trough opensource DevSecOps tooling. This repository covers only cyber security in cloud and DevSecOps scope. 
+This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope. 
 
 # Table of Contents
 
@@ -30,7 +30,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [SAST](#sast)
 - [DAST](#dast)
 - [Orchestration](#orchestration)
-- [Supply chain and dependencies](#oss-and-dependecy-management)
+- [Supply chain and dependencies](#oss-and-dependency-management)
 - [Infrastructure as code](#infrastructure-as-code-security)
 - [Containers security](#containers) 
 - [Kubernetes](#kubernetes) 
@@ -42,7 +42,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [License](#license) 
 
 # What is DevSecOps 
-DevSecOps focuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing different methods, techniess and processes backed mainly with tooling focusing on developer / security experience. 
+DevSecOps focuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing different methods, techniques and processes backed mainly with tooling focusing on developer / security experience. 
 
 DevSecOps takes care that security is part of every stage of DevOps loop - Plan, Code, Build, Test, Release, Deploy, Operate, Monitor. 
 
@@ -56,9 +56,9 @@ Various definitions:
 
 ## Pre-commit time tools
 
-In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you simulate and discover potential gaps before you start to develop the software or during the process.
+In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you to simulate and discover potential gaps before you start to develop the software or during the process.
 
-Modern DevSecOps tools allow to use Threat modeling as code or generation of threat models based on the existing code annotations. 
+Modern DevSecOps tools allow using Threat modeling as code or generation of threat models based on the existing code annotations. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -80,7 +80,7 @@ Modern DevSecOps tools allow to use Threat modeling as code or generation of thr
 | **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
 
 ## Secrets management 
-Secrets management includes managing, versioning, encrypting, discovery, rotating, provisioning of passwords, certificates, configuration values and other types of secrets. 
+Secrets management includes managing, versioning, encryption, discovery, rotating, provisioning of passwords, certificates, configuration values and other types of secrets. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -96,9 +96,9 @@ Secrets management includes managing, versioning, encrypting, discovery, rotatin
 | **Chef vault** | [https://github.com/chef/chef-vault](https://github.com/chef/chef-vault) |  allows you to encrypt a Chef Data Bag Item |![Chef vault](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge)|
 | **Ansible vault** | [Ansible vault docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html#ansible-vault) |  Encryption/decryption utility for Ansible data files |![Ansible vault](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge)|
 
-## OSS and Dependecy management
+## OSS and Dependency management
 
-Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of Continuous integration. Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
+Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of continuous integration (CI). Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -106,19 +106,19 @@ Dependency security testing and analysis is very important part of discovering s
 | **Snyk** | [https://github.com/snyk/snyk](https://github.com/snyk/snyk) | Snyk scans and monitors your projects for security vulnerabilities |![Snyk](https://img.shields.io/github/stars/snyk/snyk?style=for-the-badge) | 
 | **vulncost** | [https://github.com/snyk/vulncost](https://github.com/snyk/vulncost) | Security Scanner for VS Code |![Vulncost](https://img.shields.io/github/stars/snyk/vulncost?style=for-the-badge) |
 | **Dependency Combobulator** | [https://github.com/apiiro/combobulator](https:/github.com/apiiro/combobulator) | Dependency-related attacks detection and prevention through heuristics and insight engine (support multiple dependency schemes) | ![Combobulator](https://img.shields.io/github/stars/apiiro/combobulator?style=for-the-badge) |
-| **DependencyTrack** | [https://github.com/DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | Dependency security tracking platfrom |![DependencyTrack](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=for-the-badge) | 
-| **DependencyCheck** | [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck) | Simple dependecny security scanner good for CI |![DependencyCheck](https://img.shields.io/github/stars/jeremylong/DependencyCheck?style=for-the-badge) | 
+| **DependencyTrack** | [https://github.com/DependencyTrack/dependency-track](https://github.com/DependencyTrack/dependency-track) | Dependency security tracking platform |![DependencyTrack](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=for-the-badge) | 
+| **DependencyCheck** | [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck) | Simple dependency security scanner good for CI |![DependencyCheck](https://img.shields.io/github/stars/jeremylong/DependencyCheck?style=for-the-badge) | 
 | **Retire.js** | [https://github.com/retirejs/retire.js/](https://github.com/retirejs/retire.js/) | Helps developers to detect the use of JS-library versions with known vulnerabilities |![Retire.js](https://img.shields.io/github/stars/retirejs/retire.js?style=for-the-badge) |
-| **PHP security checker** | [https://github.com/fabpot/local-php-security-checker](https://github.com/fabpot/local-php-security-checker) | Check vulnerabilities in PHP dependecies |![Retire.js](https://img.shields.io/github/stars/fabpot/local-php-security-checker?style=for-the-badge)| 
+| **PHP security checker** | [https://github.com/fabpot/local-php-security-checker](https://github.com/fabpot/local-php-security-checker) | Check vulnerabilities in PHP dependencies |![Retire.js](https://img.shields.io/github/stars/fabpot/local-php-security-checker?style=for-the-badge)| 
 | **bundler-audit** | [https://github.com/rubysec/bundler-audit](https://github.com/rubysec/bundler-audit) | Patch-level verification for bundler |![Bundler audit](https://img.shields.io/github/stars/rubysec/bundler-audit?style=for-the-badge)| 
 | **gemnasium** | [https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium ](https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium ) | Dependency Scanning Analyzer based on Gemnasium || 
-| **Dependabot** | [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | Automated dependency updates built into GitHub providign security alerts |![Dependabot](https://img.shields.io/github/stars/dependabot/dependabot-core?style=for-the-badge)| 
+| **Dependabot** | [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | Automated dependency updates built into GitHub providing security alerts |![Dependabot](https://img.shields.io/github/stars/dependabot/dependabot-core?style=for-the-badge)| 
 | **Renovatebot** | [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate) | Automated dependency updates, patches multi-platform and multi-language |![Renovatebot](https://img.shields.io/github/stars/renovatebot/renovate?style=for-the-badge)| 
 | **npm-check** | [https://www.npmjs.com/package/npm-check](https://www.npmjs.com/package/npm-check) | Check for outdated, incorrect, and unused dependencies. |![npm-check](https://img.shields.io/github/stars/dylang/npm-check?style=for-the-badge)| 
 
 ## Supply chain specific tools 
 
-Supply chain is often target of attacks. Which libraries you use can have massive impact on security of final product (artifacts). CI (Continuos integration must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out od the system and in ideal case several validation runs with comparison of integry hashes / or attestation must be performed. 
+Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (continuous integration) must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integrity hashes / or attestation must be performed. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -212,7 +212,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 
 ## AWS 
 
-AWS specific DevSecOps tooling. Tools here coverdifferent areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
+AWS specific DevSecOps tooling. Tools here cover different areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -236,11 +236,11 @@ AWS specific DevSecOps tooling. Tools here coverdifferent areas like inventory m
 
 ## Google cloud platform 
 
-GCP specific DevSecOps tooling. Tools here coverdifferent areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
+GCP specific DevSecOps tooling. Tools here cover different areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
-| **Forseti** | [https://github.com/forseti-security/forseti-security](https://github.com/forseti-security/forseti-security) | Complex security orchestration and scanning platfrom | ![Forseti](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge)| 
+| **Forseti** | [https://github.com/forseti-security/forseti-security](https://github.com/forseti-security/forseti-security) | Complex security orchestration and scanning platform | ![Forseti](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge)| 
 
 
 ## Policy as code
@@ -273,7 +273,7 @@ Reading and manifestos: https://principlesofchaos.org/
 
 ## Infrastructure as code security 
 
-Scanning your infrascructure when it is only code helps shift-left the security. Many tools offer in IDE scanning and providing real-time advisory do Cloud engineers. 
+Scanning your infrastructure when it is only code helps shift-left the security. Many tools offer in IDE scanning and providing real-time advisory do Cloud engineers. 
 
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
@@ -286,7 +286,7 @@ Scanning your infrascructure when it is only code helps shift-left the security.
 
 ## Orchestration 
 
-Event driven security help to drive, automate and execute tasks for security procceses. The tools here and not dedicated security tools but are helping to automate and orchestrate security tasks or are part of most modern security automation frameworks or tools. 
+Event driven security help to drive, automate and execute tasks for security processes. The tools here and not dedicated security tools but are helping to automate and orchestrate security tasks or are part of most modern security automation frameworks or tools. 
 
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
@@ -325,14 +325,14 @@ Microsoft whitepapers:
 * https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/devsecops-in-github 
 
 GCP whitepapers: 
-* https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security 
-* https://cloud.google.com/security/overview/whitepaper 
-* https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf 
+* https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security 
+* https://cloud.google.com/security/overview/whitepaper 
+* https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf 
 * https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security 
 
 # Other
 
-Here are the other links and resources that do not fit in any previous category. They can meet multiple categries in time or help you in your learning. 
+Here are the other links and resources that do not fit in any previous category. They can meet multiple categories in time or help you in your learning. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -346,4 +346,3 @@ DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_
 MIT license
 
 Marek Šottl (c) 2021
-
