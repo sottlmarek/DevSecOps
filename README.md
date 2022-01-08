@@ -1,26 +1,26 @@
 # Ultimate DevSecOps library
 
 ## Contribution rules
-If you want to contribute to this Library of knowledge please create proper PR (Pull request) with description what you are adding following these set of rules: 
+If you want to contribute to this library of knowledge please create proper PR (Pull Request) with description what you are adding following these set of rules: 
 
-* Clear description of PR (What tool, why, stars, maturity and topic) 
+* Clear description of PR (which tool, why, number of stars, maturity and topic) 
 * Keep it simple - Fill the description properly
 * Fact over feelings or personal opinions
-* Add source and follow the Library style
+* Add source and follow the library style
 * Avoid duplicits - one tool, one topic 
 * Try to make bigger updates then on tool link
-* Currently Open-source only
+* Currently open-source only
 * Add only active projects 
 * Add only security tools 
 
 _Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
 
-**DevSecOps Library info:** 
+**DevSecOps library info:** 
 
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
-This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers guide through opensource DevSecOps tooling. This repository covers only cyber security in cloud and DevSecOps scope. 
+This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope. 
 
 # Table of Contents
 
@@ -98,7 +98,7 @@ Secrets management includes managing, versioning, encryption, discovery, rotatin
 
 ## OSS and Dependency management
 
-Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of Continuous integration. Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
+Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of continuous integration (CI). Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -118,7 +118,7 @@ Dependency security testing and analysis is very important part of discovering s
 
 ## Supply chain specific tools 
 
-Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (Continuous integration must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integrity hashes / or attestation must be performed. 
+Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (continuous integration) must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integrity hashes / or attestation must be performed. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
