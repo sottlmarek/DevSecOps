@@ -118,7 +118,7 @@ Dependency security testing and analysis is very important part of discovering s
 
 ## Supply chain specific tools 
 
-Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (Continuo’s integration must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integers hashes / or attestation must be performed. 
+Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (Continuous integration must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integers hashes / or attestation must be performed. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
