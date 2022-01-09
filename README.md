@@ -29,6 +29,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [Precommit and threat modeling](#pre-commit-time-tools)
 - [SAST](#sast)
 - [DAST](#dast)
+- [IAST](#iast)
 - [Orchestration](#orchestration)
 - [Supply chain and dependencies](#oss-and-dependency-management)
 - [Infrastructure as code](#infrastructure-as-code-security)
@@ -160,6 +161,19 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **oss-fuzz** | [https://github.com/google/oss-fuzz ](https://github.com/google/oss-fuzz ) | OSS-Fuzz: Continuous Fuzzing for Open Source Software |![osss-fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) | 
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
 | **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
+
+
+## IAST
+
+Interactive application security testing working at the runtime behavior of the application. The more your application is receiving traffics, the more IAST detects issues. 
+It's active verification and sensitive-data tracking for web-based applications. If you have IAST, most probably you could ignore the old generation which is DAST.
+
+
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Seeker** | [https://www.synopsys.com/software-integrity/security-testing/interactive-application-security-testing.html](https://www.synopsys.com/software-integrity/security-testing/interactive-application-security-testing.html) | Automate web security testing within your DevOps pipelines | N/A | 
+
 
 ## Continuous delivery security
 
