@@ -352,4 +352,4 @@ DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_
 # License
 MIT license
 
-Marek Šottl (c) 2021
+Marek Šottl (c) 2022
