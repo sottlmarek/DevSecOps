@@ -32,7 +32,7 @@ This library contains list of tools and methodologies accompanied with resources
 - [Orchestration](#orchestration)
 - [Supply chain and dependencies](#oss-and-dependency-management)
 - [Infrastructure as code](#infrastructure-as-code-security)
-- [Containers security](#containers) 
+- [Containers security](#containers)
 - [Kubernetes](#kubernetes) 
 - [Cloud](#multi-cloud)
 - [Chaos engineering](#chaos-engineering)
@@ -103,6 +103,7 @@ Dependency security testing and analysis is very important part of discovering s
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **CycloneDX** | [https://github.com/orgs/CycloneDX/repositories](https://github.com/orgs/CycloneDX/repositories) | CycloneDX format for **SBOM** |![CycloneDX](https://img.shields.io/github/stars/CycloneDX/cyclonedx-cli?style=for-the-badge) | 
+| **SPDX** | [https://github.com/spdx/spdx-spec](https://github.com/spdx/spdx-spec) | SPDX format for **SBOM** - Software Package Data Exchange |![SpDX](https://img.shields.io/github/stars/spdx/spdx-spec?style=for-the-badge) | 
 | **Snyk** | [https://github.com/snyk/snyk](https://github.com/snyk/snyk) | Snyk scans and monitors your projects for security vulnerabilities |![Snyk](https://img.shields.io/github/stars/snyk/snyk?style=for-the-badge) | 
 | **vulncost** | [https://github.com/snyk/vulncost](https://github.com/snyk/vulncost) | Security Scanner for VS Code |![Vulncost](https://img.shields.io/github/stars/snyk/vulncost?style=for-the-badge) |
 | **Dependency Combobulator** | [https://github.com/apiiro/combobulator](https:/github.com/apiiro/combobulator) | Dependency-related attacks detection and prevention through heuristics and insight engine (support multiple dependency schemes) | ![Combobulator](https://img.shields.io/github/stars/apiiro/combobulator?style=for-the-badge) |
@@ -161,7 +162,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
 | **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
 
-## Continuous delivery security
+## Continuous deployment security
 
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
@@ -283,6 +284,10 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **terrascan** | [https://github.com/accurics/terrascan](https://github.com/accurics/terrascan) | Terrascan is a static code analyzer for Infrastructure as Code |![terrascan](https://img.shields.io/github/stars/accurics/terrascan?style=for-the-badge) | 
 | **cfsec** | [https://github.com/aquasecurity/cfsec](https://github.com/aquasecurity/cfsec) | cfsec scans CloudFormation configuration files for security issues |![cfsec](https://img.shields.io/github/stars/aquasecurity/cfsec?style=for-the-badge) | 
 | **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
+| **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) | 
+
+
+
 
 ## Orchestration 
 
