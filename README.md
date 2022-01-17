@@ -85,6 +85,7 @@ Secrets management includes managing, versioning, encryption, discovery, rotatin
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **GitLeaks** | [https://github.com/zricethezav/gitleaks](https://github.com/zricethezav/gitleaks) | Gitleaks is a scanning tool for detecting hardcoded secrets  |![GitLeaks](https://img.shields.io/github/stars/zricethezav/gitleaks?style=for-the-badge) | 
+| **ggshield** | [https://github.com/gitguardian/ggshield](https://github.com/gitguardian/ggshield) | GitGuardian shield (ggshield) is a CLI application that runs in your local environment or in a CI environment and helps you detect more than 350+ types of secrets and sensitive files.  |![ggshield](https://img.shields.io/github/stars/gitguardian/ggshield?style=for-the-badge) |
 | **TruffleHog** | [https://github.com/trufflesecurity/truffleHog](https://github.com/trufflesecurity/truffleHog) | TruffleHog is a scanning tool for detecting hardcoded secrets  |![TruffleHog](https://img.shields.io/github/stars/trufflesecurity/truffleHog?style=for-the-badge) |
 | **Hashicorp Vault** | [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault) | Hashicorp Vault secrets management  |![Vault](https://img.shields.io/github/stars/hashicorp/vault?style=for-the-badge) |
 | **Mozilla SOPS** | [https://github.com/mozilla/sops ](https://github.com/mozilla/sops ) | Mozilla Secrets Operations  |![SOPS](https://img.shields.io/github/stars/mozilla/sops?style=for-the-badge) |
