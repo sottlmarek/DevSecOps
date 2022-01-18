@@ -17,4 +17,4 @@ Impact [1-10]
 ...
 ## Info
 
-Autor and Contact
+Author and Contact
