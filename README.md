@@ -210,6 +210,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Cloudsploit** | [https://github.com/aquasecurity/cloudsploit](https://github.com/aquasecurity/cloudsploit) | Detection of security risks in cloud infrastructure |![Cloudsploit](https://img.shields.io/github/stars/aquasecurity/cloudsploit?style=for-the-badge) |
 | **ScoutSuite** | [https://github.com/nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) | NCCgroup mutlicloud scanning tool |![ScoutSuite](https://img.shields.io/github/stars/nccgroup/ScoutSuite?style=for-the-badge) |
 | **CloudCustodian** | [https://github.com/cloud-custodian/cloud-custodian/](https://github.com/cloud-custodian/cloud-custodian/) | Multicloud security analysis framework |![CloudCustodian](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) | 
+| **CloudGraph** | [https://github.com/cloudgraphdev/cli](https://github.com/cloudgraphdev/cli) | GraphQL API + Security for AWS, Azure, GCP, and K8s |![CloudGraph](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) | 
 
 ## AWS 
 
@@ -351,4 +352,4 @@ DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_
 # License
 MIT license
 
-Marek Šottl (c) 2021
+Marek Šottl (c) 2022
