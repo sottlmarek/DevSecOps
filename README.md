@@ -12,6 +12,7 @@ If you want to contribute to this library of knowledge please create proper PR (
 * Currently open-source only
 * Add only active projects 
 * Add only security tools 
+* Report typos as issue not via PR. 
 
 _Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
 
