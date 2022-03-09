@@ -10,7 +10,7 @@ assignees: ''
 # Name of the problem [Missing tools]
 ## Definition 
 ...
-Typos / Tool is missing / Wrong licence infomation 
+Typos / Tool is missing / Wrong licence information 
 
 ## Proposed solution
 ...
