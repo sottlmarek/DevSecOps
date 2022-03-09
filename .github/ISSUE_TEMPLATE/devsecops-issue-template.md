@@ -10,8 +10,7 @@ assignees: ''
 # Name of the problem [Missing tools]
 ## Definition 
 ...
-Severity [1-10]
-Impact [1-10]
+Typos / Tool is missing / Wrong licence infomation 
 
 ## Proposed solution
 ...
