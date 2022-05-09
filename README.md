@@ -172,6 +172,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | :---------- | :---------- | :---------- | :----------: |
 | **SecureCodeBox** | [https://github.com/secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) | Toolchain for continuous scanning of applications and infrastructure |![SCB](https://img.shields.io/github/stars/secureCodeBox/secureCodeBox?style=for-the-badge) | 
 | **OpenSCAP** | [https://github.com/OpenSCAP/openscap](https://github.com/OpenSCAP/openscap) | Open Source Security Compliance Solution |![oscap](https://img.shields.io/github/stars/OpenSCAP/openscap?style=for-the-badge) | 
+| **ThreatMapper** | [https://github.com/deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) | ThreatMapper hunts for vulnerabilities in your production platforms, and ranks these vulnerabilities based on their risk-of-exploit. |![kube-hunter](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=for-the-badge) | 
 
 ## Kubernetes 
 
@@ -191,7 +192,11 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Gatekeeper** | [https://github.com/open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Open policy agent gatekeeper for k8s |![gatekeeper](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=for-the-badge) | 
 | **Inspektor-gadget** | [https://github.com/kinvolk/inspektor-gadget](https://github.com/kinvolk/inspektor-gadget ) | Collection of tools (or gadgets) to debug and inspect k8s |![inspector](https://img.shields.io/github/stars/kinvolk/inspektor-gadget?style=for-the-badge) | 
 | **kube-linter** | [https://github.com/stackrox/kube-linter ](https://github.com/stackrox/kube-linter) | Static analysis for Kubernetes |![kube-linter](https://img.shields.io/github/stars/stackrox/kube-linter?style=for-the-badge) | 
-| **mizu-api-traffic-viewer** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | A simple-yet-powerful API traffic viewer for Kubernetes enabling you to view all API communication between microservices to help your debug and troubleshoot regressions. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers)
+| **mizu-api-traffic-viewer** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | A simple-yet-powerful API traffic viewer for Kubernetes enabling you to view all API communication between microservices to help your debug and troubleshoot regressions. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
+| **HelmSnyk** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | The Helm plugin for Snyk provides a subcommand for testing the images. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
+| **Kubewarden** | [https://github.com/orgs/kubewarden/repositories](https://github.com/orgs/kubewarden/repositories) | Policy as code for kubernetes from SUSE. |[![GitHub stars](https://img.shields.io/github/stars/kubewarden/kwctl)](https://github.com/up9inc/kubewarden/kwctl) | 
+| **Kubernetes-sigs BOM** | [https://github.com/kubernetes-sigs/bom](https://img.shields.io/github/stars/kubernetes-sigs/bom) |Kubernetes BOM generator |[![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom)](https://img.shields.io/github/stars/kubernetes-sigs/bom) | 
+
   
 
 ## Containers 
@@ -243,7 +248,7 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **AWS open source security samples** | [Official AWS opensource repo](https://github.com/orgs/aws-samples/repositories?language=&q=security&sort=&type=) |Collection of official AWS open-source resources | ![Amazon AWS](https://img.shields.io/static/v1?style=for-the-badge&message=Amazon+AWS&color=232F3E&logo=Amazon+AWS&logoColor=FFFFFF&label=)| 
 | **AWS Firewall factory** | [Globaldatanet FMS automation](https://github.com/globaldatanet/aws-firewall-factory) |Deploy, update, and stage your WAFs while managing them centrally via FMS | ![Globaldatanet Firewall factory](https://img.shields.io/github/stars/globaldatanet/aws-firewall-factory?style=for-the-badge)| 
 | **Parliment** | [Parliment](https://github.com/duo-labs/parliament) | Parliament is an AWS IAM linting library | ![IAM linting](https://img.shields.io/github/stars/duo-labs/parliament?style=for-the-badge)| 
-
+| **Yor** | [Yor](https://github.com/bridgecrewio/yor) | Adds informative and consistent tags across infrastructure-as-code frameworks such as Terraform, CloudFormation, and Serverless | ![Yor](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge)| 
 
 ## Google cloud platform 
 
@@ -295,9 +300,6 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **cfsec** | [https://github.com/aquasecurity/cfsec](https://github.com/aquasecurity/cfsec) | cfsec scans CloudFormation configuration files for security issues |![cfsec](https://img.shields.io/github/stars/aquasecurity/cfsec?style=for-the-badge) | 
 | **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
 | **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) | 
-
-
-
 
 ## Orchestration 
 
