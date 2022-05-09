@@ -172,6 +172,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | :---------- | :---------- | :---------- | :----------: |
 | **SecureCodeBox** | [https://github.com/secureCodeBox/secureCodeBox](https://github.com/secureCodeBox/secureCodeBox) | Toolchain for continuous scanning of applications and infrastructure |![SCB](https://img.shields.io/github/stars/secureCodeBox/secureCodeBox?style=for-the-badge) | 
 | **OpenSCAP** | [https://github.com/OpenSCAP/openscap](https://github.com/OpenSCAP/openscap) | Open Source Security Compliance Solution |![oscap](https://img.shields.io/github/stars/OpenSCAP/openscap?style=for-the-badge) | 
+| **ThreatMapper** | [https://github.com/deepfence/ThreatMapper](https://github.com/deepfence/ThreatMapper) | ThreatMapper hunts for vulnerabilities in your production platforms, and ranks these vulnerabilities based on their risk-of-exploit. |![kube-hunter](https://img.shields.io/github/stars/deepfence/ThreatMapper?style=for-the-badge) | 
 
 ## Kubernetes 
 
@@ -191,7 +192,9 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Gatekeeper** | [https://github.com/open-policy-agent/gatekeeper](https://github.com/open-policy-agent/gatekeeper) | Open policy agent gatekeeper for k8s |![gatekeeper](https://img.shields.io/github/stars/open-policy-agent/gatekeeper?style=for-the-badge) | 
 | **Inspektor-gadget** | [https://github.com/kinvolk/inspektor-gadget](https://github.com/kinvolk/inspektor-gadget ) | Collection of tools (or gadgets) to debug and inspect k8s |![inspector](https://img.shields.io/github/stars/kinvolk/inspektor-gadget?style=for-the-badge) | 
 | **kube-linter** | [https://github.com/stackrox/kube-linter ](https://github.com/stackrox/kube-linter) | Static analysis for Kubernetes |![kube-linter](https://img.shields.io/github/stars/stackrox/kube-linter?style=for-the-badge) | 
-| **mizu-api-traffic-viewer** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | A simple-yet-powerful API traffic viewer for Kubernetes enabling you to view all API communication between microservices to help your debug and troubleshoot regressions. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers)
+| **mizu-api-traffic-viewer** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | A simple-yet-powerful API traffic viewer for Kubernetes enabling you to view all API communication between microservices to help your debug and troubleshoot regressions. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
+| **HelmSnyk** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | The Helm plugin for Snyk provides a subcommand for testing the images. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
+| **Kubewardenr** | [https://github.com/orgs/kubewarden/repositories](https://github.com/orgs/kubewarden/repositories) | Policy as code for kubernetes from SUSE. |[![GitHub stars](https://github.com/up9inc/kubewarden/kwctl)](https://github.com/up9inc/kubewarden/kwctl) | 
   
 
 ## Containers 
@@ -295,9 +298,6 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **cfsec** | [https://github.com/aquasecurity/cfsec](https://github.com/aquasecurity/cfsec) | cfsec scans CloudFormation configuration files for security issues |![cfsec](https://img.shields.io/github/stars/aquasecurity/cfsec?style=for-the-badge) | 
 | **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
 | **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) | 
-
-
-
 
 ## Orchestration 
 
