@@ -246,6 +246,8 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **AWS open source security samples** | [Official AWS opensource repo](https://github.com/orgs/aws-samples/repositories?language=&q=security&sort=&type=) |Collection of official AWS open-source resources | ![Amazon AWS](https://img.shields.io/static/v1?style=for-the-badge&message=Amazon+AWS&color=232F3E&logo=Amazon+AWS&logoColor=FFFFFF&label=)| 
 | **AWS Firewall factory** | [Globaldatanet FMS automation](https://github.com/globaldatanet/aws-firewall-factory) |Deploy, update, and stage your WAFs while managing them centrally via FMS | ![Globaldatanet Firewall factory](https://img.shields.io/github/stars/globaldatanet/aws-firewall-factory?style=for-the-badge)| 
 | **Parliment** | [Parliment](https://github.com/duo-labs/parliament) | Parliament is an AWS IAM linting library | ![IAM linting](https://img.shields.io/github/stars/duo-labs/parliament?style=for-the-badge)| 
+| **Yor** | [Yor](https://github.com/bridgecrewio/yor) | Adds informative and consistent tags across infrastructure-as-code frameworks such as Terraform, CloudFormation, and Serverless | ![Yor](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge)| 
+
 
 
 ## Google cloud platform 
