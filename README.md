@@ -158,6 +158,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
+| **Arachni** | [https://www.arachni-scanner.com/](https://www.arachni-scanner.com/) |  Arachni is a feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators evaluate the security of modern web applications. |![Arachni](https://img.shields.io/github/stars/arachni/arachni?style=for-the-badge) | 
 | **Zap proxy** | [https://owasp.org/www-project-zap/](https://owasp.org/www-project-zap/) | Zap proxy providing various docker containers for CI/CD pipeline|![ZAP](https://img.shields.io/github/stars/zaproxy/zaproxy?style=for-the-badge) | 
 | **Wapiti** | [https://github.com/wapiti-scanner/wapiti ](https://github.com/wapiti-scanner/wapiti ) | Light pipeline ready scanning tool |![Wapiti](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=for-the-badge) | 
 | **Nuclei** | [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Template based security scanning tool |![Nuclei](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=for-the-badge) | 
