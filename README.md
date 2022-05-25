@@ -197,6 +197,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Kubewarden** | [https://github.com/orgs/kubewarden/repositories](https://github.com/orgs/kubewarden/repositories) | Policy as code for kubernetes from SUSE. |[![GitHub stars](https://img.shields.io/github/stars/kubewarden/kwctl)](https://github.com/up9inc/kubewarden/kwctl) | 
 | **Kubernetes-sigs BOM** | [https://github.com/kubernetes-sigs/bom](https://img.shields.io/github/stars/kubernetes-sigs/bom) |Kubernetes BOM generator |[![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom)](https://img.shields.io/github/stars/kubernetes-sigs/bom) | 
 | **Capsule** | [https://github.com/clastix/capsule](https://github.com/clastix/capsule) | A multi-tenancy and policy-based framework for Kubernetes |![GitHub stars](https://img.shields.io/github/stars/clastix/capsule) |
+| **Badrobot** | [https://github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) | Badrobot is a Kubernetes Operator audit tool |![GitHub stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
 
 ## Containers 
 
