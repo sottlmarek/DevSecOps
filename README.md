@@ -52,6 +52,7 @@ Various definitions:
 * https://www.ibm.com/cloud/learn/devsecops 
 * https://snyk.io/series/devsecops/ 
 * https://www.synopsys.com/glossary/what-is-devsecops.html
+* https://spacelift.io/blog/what-is-devsecops
 
 # Tooling
 
