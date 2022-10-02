@@ -270,6 +270,7 @@ Policy as code is the idea of writing code in a high-level language to manage an
 | **Open Policy agent** | [https://github.com/open-policy-agent/opa](https://github.com/open-policy-agent/opa) | General-purpose policy engine that enables unified, context-aware policy enforcement across the entire stack |![OPA](https://img.shields.io/github/stars/open-policy-agent/opa?style=for-the-badge) |
 | **Inspec** | [https://github.com/inspec/inspec](https://github.com/inspec/inspec) | Chef InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements. |![Inspec](https://img.shields.io/github/stars/inspec/inspec?style=for-the-badge) | 
 | **Cloud Formation guard** | [https://github.com/aws-cloudformation/cloudformation-guard](https://github.com/aws-cloudformation/cloudformation-guard) | Cloud Formation policy as code |![cf-guard](https://img.shields.io/github/stars/aws-cloudformation/cloudformation-guard?style=for-the-badge) | 
+| **Allero** | [https://github.com/allero-io/allero](https://github.com/allero-io/allero) | Allero is a policy tool that prevents misconfigurations in CI/CD pipelines. This helps prevent failures and security risks from reaching production. It also allows R&D teams be less dependent on DevOps engineers when building and maintaining CI/CD pipelines. |![cf-guard](https://img.shields.io/github/stars/allero-io/allero?style=for-the-badge) | 
 
 
 ## Chaos engineering
