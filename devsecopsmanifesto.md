@@ -11,8 +11,8 @@ Structured languages that are used to configure databases, firewalls, servers, a
 * IT and cyber security security must work with development, risk and business people on a daily basis.
 * Changes are welcome because they allow them to respond to new threats, risks and vulnerabilities.
 * Security is a priority for delivering high-quality software and architecture as a code. 
-* Security is functional requirement. 
+* Security is a functional requirement. 
 * Teams must share knowledge in information and cyber security for growth
-* Overall maturity of community resulting into guild. 
-* Automation and security coding is a long-term goal for architecture as a code. 
-* Security artefacts must be self-documented. 
+* Overall maturity of community resulting in a guild. 
+* Automation and security is a long-term goal for architecture as a code. 
+* Security artifacts must be self-documented. 
