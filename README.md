@@ -1,27 +1,31 @@
 # Ultimate DevSecOps library
 
-## Contribution rules
-If you want to contribute to this library of knowledge please create proper PR (Pull Request) with description what you are adding following these set of rules: 
-
-* Clear description of PR (which tool, why, number of stars, maturity and topic) 
-* Keep it simple - Fill the description properly
-* Fact over feelings or personal opinions
-* Add source and follow the library style
-* Avoid duplicits - one tool, one topic 
-* Try to make bigger updates then on tool link
-* Currently open-source only
-* Add only active projects 
-* Add only security tools 
-* Report typos as issue not via PR. 
-
-_Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
-
-**DevSecOps library info:** 
+## About
 
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
-This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope. 
+This library contains list of tools and methodologies accompanied with resources. The main goal is to provide engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.
+
+_Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
+
+## Contribution rules
+If you want to contribute to this library of knowledge please create a proper PR (Pull Request) with a description of what you are adding following this set of rules:
+
+* Submit the PR with a clear description 
+    * The description should describe the tool, and why it should be on the list
+    * Add a number of GitHub stars, project maturity, and which topic/category it belongs to
+* The tool itself must be...
+    * Part of a currently active project
+    * Open source
+    * A security tool
+* Add the tool into one of the tables in Markdown
+    * Avoid duplicates - a tool may only be in one category in this library
+    * Keep the description simple and proper
+    * Facts over feelings or personal opinions
+    * Follow the library style
+* If you're changing something, try to make bigger updates while you're at it
+* For typos, create an issue, not a pull request
 
 # Table of Contents
 
@@ -42,8 +46,9 @@ This library contains list of tools and methodologies accompanied with resources
 - [Other](#other)
 - [License](#license) 
 
-# What is DevSecOps 
-DevSecOps focuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing different methods, techniques and processes backed mainly with tooling focusing on developer / security experience. 
+# What is DevSecOps
+
+DevSecOps focuses on security automation, testing and enforcement during _DevOps - Release - SDLC cycles_. The whole meaning behind this methodology is connecting Development, Security and Operations. DevSecOps is methodology providing different methods, techniques and processes backed mainly by tooling focusing on developer & security experience. 
 
 DevSecOps takes care that security is part of every stage of DevOps loop - Plan, Code, Build, Test, Release, Deploy, Operate, Monitor. 
 
