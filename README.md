@@ -44,6 +44,7 @@ If you want to contribute to this library of knowledge please create a proper PR
 - [Policy as code](#policy-as-code)
 - [Methodologies](#methodologies-whitepapers-and-architecture)
 - [Other](#other)
+- [Further reading and resources](#further-reading-and-resources)
 - [License](#license) 
 
 # What is DevSecOps
@@ -367,9 +368,12 @@ Here are the other links and resources that either do not fit in any previous ca
 | **Automated Security Helper (ASH)** | [https://github.com/aws-samples/automated-security-helper](https://github.com/aws-samples/automated-security-helper) | ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter Notebooks.  |![ASH](https://img.shields.io/github/stars/aws-samples/automated-security-helper?style=for-the-badge) | 
 | **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
 
-Training - https://www.practical-devsecops.com/devsecops-university/ 
+# Further reading and resources
 
-DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_HftNM7Fy0ksEOUHc-Q)
+To further your learning:
+
+* DevSecOps University Training - https://www.practical-devsecops.com/devsecops-university/ 
+* DevSecOps videos on the [Hackitect playground YouTube channel](https://www.youtube.com/channel/UCy0S_HftNM7Fy0ksEOUHc-Q)
 
 # License
 MIT license
