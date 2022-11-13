@@ -5,7 +5,7 @@
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
-This library contains list of tools and methodologies accompanied with resources. The main goal is to provide engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.
+This library contains a list of tools and methodologies accompanied with resources. The main goal is to provide engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.
 
 _Note:_ Currently this is an early version of the library. I recommend PR after first official release. 
 
@@ -47,8 +47,8 @@ If you want to contribute to this library of knowledge please create a proper PR
     * [Chaos engineering](#chaos-engineering)
     * [Infrastructure as Code security](#infrastructure-as-code-security)
     * [Orchestration](#orchestration)
+    * [Other](#other)
 * [Methodologies](#methodologies-whitepapers-and-architecture)
-* [Other](#other)
 * [Further reading and resources](#further-reading-and-resources)
 * [License](#license) 
 
@@ -327,6 +327,15 @@ Event driven security help to drive, automate and execute tasks for security pro
 | **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
 | **Faraday** | [https://github.com/infobyte/faraday](https://github.com/infobyte/faraday) | Security suite for Security Orchestration, vulnerability management and centralized information |![Faraday](https://img.shields.io/github/stars/infobyte/faraday) |
 
+## Other
+
+Here are the other links and resources that either do not fit in any previous category, or that fit in multiple different categories at a time.
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Automated Security Helper (ASH)** | [https://github.com/aws-samples/automated-security-helper](https://github.com/aws-samples/automated-security-helper) | ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter Notebooks.  |![ASH](https://img.shields.io/github/stars/aws-samples/automated-security-helper?style=for-the-badge) | 
+| **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
+
 # Methodologies, whitepapers and architecture
 
 List of resources worth investigating: 
@@ -363,15 +372,6 @@ GCP whitepapers:
 * https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf 
 * https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security 
 * https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf
-
-# Other
-
-Here are the other links and resources that either do not fit in any previous category, or that fit in multiple different categories at a time.
-
-| Name | URL | Description | Meta | 
-| :---------- | :---------- | :---------- | :----------: |
-| **Automated Security Helper (ASH)** | [https://github.com/aws-samples/automated-security-helper](https://github.com/aws-samples/automated-security-helper) | ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter Notebooks.  |![ASH](https://img.shields.io/github/stars/aws-samples/automated-security-helper?style=for-the-badge) | 
-| **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
 
 # Further reading and resources
 
