@@ -63,9 +63,9 @@ Various definitions:
 
 ## Pre-commit time tools
 
-In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you to simulate and discover potential gaps before you start to develop the software or during the process.
+In this section you can find lifecycle helpers, pre-commit hook tools for Git and threat modeling tools. Threat modeling tools should be in a specific category of their own. They allow you to simulate and discover potential issues before software development even starts, and then continue during development.
 
-Modern DevSecOps tools allow using Threat modeling as code or generation of threat models based on the existing code annotations. 
+Modern DevSecOps tools allow you to use threat modeling as code or generation of threat models based on code annotations. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -86,7 +86,8 @@ Modern DevSecOps tools allow using Threat modeling as code or generation of thre
 | **detect-secrets** | [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) |  Detects secrets in your codebase |![DevSkim](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge)| 
 | **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
 
-## Secrets management 
+## Secrets management
+
 Secrets management includes managing, versioning, encryption, discovery, rotating, provisioning of passwords, certificates, configuration values and other types of secrets. 
 
 | Name | URL | Description | Meta | 
@@ -104,9 +105,9 @@ Secrets management includes managing, versioning, encryption, discovery, rotatin
 | **Chef vault** | [https://github.com/chef/chef-vault](https://github.com/chef/chef-vault) |  allows you to encrypt a Chef Data Bag Item |![Chef vault](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge)|
 | **Ansible vault** | [Ansible vault docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html#ansible-vault) |  Encryption/decryption utility for Ansible data files |![Ansible vault](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge)|
 
-## OSS and Dependency management
+## OSS dependency management
 
-Dependency security testing and analysis is very important part of discovering supply chain attacks. SBOM creation and following dependency scanning (Software composition analysis) is critical part of continuous integration (CI). Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in context of libraries and packages. 
+Security testing and analysis of open-source dependencies is a very important part of discovering supply chain attacks. SBOM creation and the following dependency scanning (Software composition analysis) is a critical part of Continuous Integration (CI). Data series and data trends tracking should be part of CI tooling. You need to know what you produce and what you consume in the context of libraries and packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -128,7 +129,7 @@ Dependency security testing and analysis is very important part of discovering s
 
 ## Supply chain specific tools 
 
-Supply chain is often the target of attacks. Which libraries you use can have a massive impact on security of the final product (artifacts). CI (continuous integration) must be monitored inside the tasks and jobs in pipeline steps. Integrity checks must be stored out of the system and in ideal case several validation runs with comparison of integrity hashes / or attestation must be performed. 
+The dependency supply chain is often the target of attacks. Which libraries you use can have a massive impact on the security of the final product (artifacts). CI (Continuous Integration) must be monitored inside the tasks and jobs of the pipeline steps. Integrity checks must be stored out of the system, and ideally there should be several validation runs with comparison of integrity hashes, or attestation must be performed. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -141,7 +142,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 
 ## SAST
 
-Static code review tools working with source code and looking for known patterns and relationships of methods, variables, classes and libraries. SAST works with the raw code and usually not with build packages. 
+Static code review tools work with source code and look for known patterns and relationships of methods, variables, classes and libraries. SAST works with raw code and usually not with built packages. 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -155,13 +156,13 @@ Static code review tools working with source code and looking for known patterns
 | **SonarQube community** | [https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | Detect security issues in code review with Static Application Security Testing (SAST) |![SonarQube](https://img.shields.io/github/stars/SonarSource/sonarqube?style=for-the-badge) | 
 | **gosec** | [https://github.com/securego/gosec](https://github.com/securego/gosec) | Inspects source code for security problems by scanning the Go AST. |![SonarQube](https://img.shields.io/github/stars/securego/gosec?style=for-the-badge) | 
 
-**Note:** Semgrep is free CLI tool, however some rulesets (https://semgrep.dev/r) are having various licences, some can be free to use and can be commercial.  
+**Note:** Semgrep is free CLI tool, however some rulesets (https://semgrep.dev/r) have different (non-open-source) licences - some are free to use, some are commercial.
 
-OWASP curated list of SAST tools : https://owasp.org/www-community/Source_Code_Analysis_Tools 
+OWASP curated list of SAST tools: https://owasp.org/www-community/Source_Code_Analysis_Tools 
 
 ## DAST
 
-Dynamic application security testing (DAST) is a type of application testing (in most cases web) that checks your application from the outside by active communication and analysis of the responses based on injected inputs. DAST tools rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running and is actively deployed on the server (or serverless function).
+Dynamic application security testing (DAST) is a type of application testing (in most cases web application) that checks your application from the outside by active communication and analysis of the responses based on injected inputs. DAST tools rely on inputs and outputs to operate. A DAST tool uses these to check for security problems while the software is actually running and is actively deployed on the server (even on serverless functions and other forms of serverless code deployment).
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
@@ -297,7 +298,7 @@ Reading and manifestos: https://principlesofchaos.org/
 
 ## Infrastructure as code security 
 
-Scanning your infrastructure when it is only code helps shift-left the security. Many tools offer in IDE scanning and providing real-time advisory do Cloud engineers. 
+Scanning your infrastructure when it is described in IaC code helps shift-left the security. Many tools offer scanning and providing real-time feedback in IDEs and other editors to cloud engineers. 
 
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
@@ -359,7 +360,7 @@ GCP whitepapers:
 
 # Other
 
-Here are the other links and resources that do not fit in any previous category. They can meet multiple categories in time or help you in your learning. 
+Here are the other links and resources that either do not fit in any previous category, or that fit in multiple different categories at a time.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
