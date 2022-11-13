@@ -29,23 +29,28 @@ If you want to contribute to this library of knowledge please create a proper PR
 
 # Table of Contents
 
-- [Definition](#what-is-devsecops)
-- [Tooling](#tooling)
-- [Precommit and threat modeling](#pre-commit-time-tools)
-- [SAST](#sast)
-- [DAST](#dast)
-- [Orchestration](#orchestration)
-- [Supply chain and dependencies](#oss-and-dependency-management)
-- [Infrastructure as code](#infrastructure-as-code-security)
-- [Containers security](#containers)
-- [Kubernetes](#kubernetes) 
-- [Cloud](#multi-cloud)
-- [Chaos engineering](#chaos-engineering)
-- [Policy as code](#policy-as-code)
-- [Methodologies](#methodologies-whitepapers-and-architecture)
-- [Other](#other)
-- [Further reading and resources](#further-reading-and-resources)
-- [License](#license) 
+* [Definition](#what-is-devsecops)
+* [Tooling](#tooling)
+    * [Pre-commit time tools and threat modeling](#pre-commit-time-tools)
+    * [Secrets management](#secrets-management)
+    * [OSS dependency management](#oss-dependency-management)
+    * [Supply chain specific tools](#supply-chain-specific-tools)
+    * [SAST](#sast)
+    * [DAST](#dast)
+    * [Continous deployment security](#continous-deployment-security)
+    * [Kubernetes](#kubernetes)
+    * [Containers](#containers)
+    * [Multi-Cloud](#multi-cloud)
+    * [AWS](#aws)
+    * [GCP](#gcp)
+    * [Policy as code](#policy-as-code)
+    * [Chaos engineering](#chaos-engineering)
+    * [Infrastructure as Code security](#infrastructure-as-code-security)
+    * [Orchestration](#orchestration)
+* [Methodologies](#methodologies-whitepapers-and-architecture)
+* [Other](#other)
+* [Further reading and resources](#further-reading-and-resources)
+* [License](#license) 
 
 # What is DevSecOps
 
@@ -62,7 +67,7 @@ Various definitions:
 
 # Tooling
 
-## Pre-commit time tools
+## Pre-commit time tools and threat modeling
 
 In this section you can find lifecycle helpers, pre-commit hook tools for Git and threat modeling tools. Threat modeling tools should be in a specific category of their own. They allow you to simulate and discover potential issues before software development even starts, and then continue during development.
 
@@ -259,7 +264,7 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **Parliment** | [Parliment](https://github.com/duo-labs/parliament) | Parliament is an AWS IAM linting library | ![IAM linting](https://img.shields.io/github/stars/duo-labs/parliament?style=for-the-badge)| 
 | **Yor** | [Yor](https://github.com/bridgecrewio/yor) | Adds informative and consistent tags across infrastructure-as-code frameworks such as Terraform, CloudFormation, and Serverless | ![Yor](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge)| 
 
-## Google cloud platform 
+## GCP
 
 GCP specific DevSecOps tooling. Tools here cover different areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
 
@@ -297,7 +302,7 @@ Reading and manifestos: https://principlesofchaos.org/
 | **AWS FIS samples** | [https://github.com/aws-samples/aws-fault-injection-simulator-samples](https://github.com/aws-samples/aws-fault-injection-simulator-samples) | AWS Fault injection simulator samples |![AWS](https://img.shields.io/github/stars/aws-samples/aws-fault-injection-simulator-samples?style=for-the-badge) |
 | **CloudNuke** | [https://github.com/gruntwork-io/cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) | CLI tool to delete all resources in an AWS account |![CloudNuke](https://img.shields.io/github/stars/gruntwork-io/cloud-nuke?style=for-the-badge) |
 
-## Infrastructure as code security 
+## Infrastructure as Code security 
 
 Scanning your infrastructure when it is described in IaC code helps shift-left the security. Many tools offer scanning and providing real-time feedback in IDEs and other editors to cloud engineers. 
 
