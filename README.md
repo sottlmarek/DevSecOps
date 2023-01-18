@@ -52,6 +52,7 @@ Various definitions:
 * https://www.ibm.com/cloud/learn/devsecops 
 * https://snyk.io/series/devsecops/ 
 * https://www.synopsys.com/glossary/what-is-devsecops.html
+* https://spacelift.io/blog/what-is-devsecops
 
 # Tooling
 
@@ -105,6 +106,7 @@ Dependency security testing and analysis is very important part of discovering s
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **CycloneDX** | [https://github.com/orgs/CycloneDX/repositories](https://github.com/orgs/CycloneDX/repositories) | CycloneDX format for **SBOM** |![CycloneDX](https://img.shields.io/github/stars/CycloneDX/cyclonedx-cli?style=for-the-badge) | 
+| **cdxgen** | [https://github.com/AppThreat/cdxgen](https://github.com/AppThreat/cdxgen) | Generates CycloneDX **SBOM**, supports many languages and package managers. |![CycloneDX](https://img.shields.io/github/stars/AppThreat/cdxgen?style=for-the-badge) | 
 | **SPDX** | [https://github.com/spdx/spdx-spec](https://github.com/spdx/spdx-spec) | SPDX format for **SBOM** - Software Package Data Exchange |![SpDX](https://img.shields.io/github/stars/spdx/spdx-spec?style=for-the-badge) | 
 | **Snyk** | [https://github.com/snyk/snyk](https://github.com/snyk/snyk) | Snyk scans and monitors your projects for security vulnerabilities |![Snyk](https://img.shields.io/github/stars/snyk/snyk?style=for-the-badge) | 
 | **vulncost** | [https://github.com/snyk/vulncost](https://github.com/snyk/vulncost) | Security Scanner for VS Code |![Vulncost](https://img.shields.io/github/stars/snyk/vulncost?style=for-the-badge) |
@@ -118,6 +120,8 @@ Dependency security testing and analysis is very important part of discovering s
 | **Dependabot** | [https://github.com/dependabot/dependabot-core](https://github.com/dependabot/dependabot-core) | Automated dependency updates built into GitHub providing security alerts |![Dependabot](https://img.shields.io/github/stars/dependabot/dependabot-core?style=for-the-badge)| 
 | **Renovatebot** | [https://github.com/renovatebot/renovate](https://github.com/renovatebot/renovate) | Automated dependency updates, patches multi-platform and multi-language |![Renovatebot](https://img.shields.io/github/stars/renovatebot/renovate?style=for-the-badge)| 
 | **npm-check** | [https://www.npmjs.com/package/npm-check](https://www.npmjs.com/package/npm-check) | Check for outdated, incorrect, and unused dependencies. |![npm-check](https://img.shields.io/github/stars/dylang/npm-check?style=for-the-badge)| 
+| **Security Scorecards** | [https://securityscorecards.dev](https://securityscorecards.dev) | Checks for several security health metrics on open source libraries and provides a score (0-10) to be considered in the decision making of what libraries to use. |![scorecard](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge)| 
+| **Syft** | [https://github.com/anchore/syft](https://github.com/anchore/syft) | CLI tool and library for generating an SBOM from container images (and filesystems). |![syft](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge)| 
 
 ## Supply chain specific tools 
 
@@ -193,11 +197,11 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Inspektor-gadget** | [https://github.com/kinvolk/inspektor-gadget](https://github.com/kinvolk/inspektor-gadget ) | Collection of tools (or gadgets) to debug and inspect k8s |![inspector](https://img.shields.io/github/stars/kinvolk/inspektor-gadget?style=for-the-badge) | 
 | **kube-linter** | [https://github.com/stackrox/kube-linter ](https://github.com/stackrox/kube-linter) | Static analysis for Kubernetes |![kube-linter](https://img.shields.io/github/stars/stackrox/kube-linter?style=for-the-badge) | 
 | **mizu-api-traffic-viewer** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | A simple-yet-powerful API traffic viewer for Kubernetes enabling you to view all API communication between microservices to help your debug and troubleshoot regressions. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
-| **HelmSnyk** | [https://github.com/up9inc/mizu](https://github.com/up9inc/mizu) | The Helm plugin for Snyk provides a subcommand for testing the images. |[![GitHub stars](https://img.shields.io/github/stars/up9inc/mizu)](https://github.com/up9inc/mizu/stargazers) | 
+| **HelmSnyk** | [https://github.com/snyk-labs/helm-snyk](https://github.com/snyk-labs/helm-snyk) | The Helm plugin for Snyk provides a subcommand for testing the images. |[![GitHub stars](https://img.shields.io/github/stars/snyk-labs/helm-snyk)](https://github.com/snyk-labs/helm-snyk/stargazers) | 
 | **Kubewarden** | [https://github.com/orgs/kubewarden/repositories](https://github.com/orgs/kubewarden/repositories) | Policy as code for kubernetes from SUSE. |[![GitHub stars](https://img.shields.io/github/stars/kubewarden/kwctl)](https://github.com/up9inc/kubewarden/kwctl) | 
 | **Kubernetes-sigs BOM** | [https://github.com/kubernetes-sigs/bom](https://img.shields.io/github/stars/kubernetes-sigs/bom) |Kubernetes BOM generator |[![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom)](https://img.shields.io/github/stars/kubernetes-sigs/bom) | 
-
-  
+| **Capsule** | [https://github.com/clastix/capsule](https://github.com/clastix/capsule) | A multi-tenancy and policy-based framework for Kubernetes |![GitHub stars](https://img.shields.io/github/stars/clastix/capsule) |
+| **Badrobot** | [https://github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) | Badrobot is a Kubernetes Operator audit tool |![GitHub stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
 
 ## Containers 
 
@@ -213,6 +217,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Notary** | [https://github.com/notaryproject/notary](https://github.com/notaryproject/notary) | Docker signing|![Notary](https://img.shields.io/github/stars/notaryproject/notary?style=for-the-badge) | 
 | **Cosign** | [https://github.com/sigstore/cosign](https://github.com/sigstore/cosign) | Container signing|![Cosign](https://img.shields.io/github/stars/sigstore/cosign?style=for-the-badge) | 
 | **watchtower** | [https://github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) | Updates the running version of your containerized app |![watchtower](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
+| **Grype** | [https://github.com/anchore/grype](https://github.com/anchore/grype) | Vulnerability scanner for container images (and also filesystems). |![Grype](https://img.shields.io/github/stars/anchore/grype?style=for-the-badge) |
 
 ## Multi-Cloud 
 
@@ -280,6 +285,7 @@ Reading and manifestos: https://principlesofchaos.org/
 | :---------- | :---------- | :---------- | :----------: |
 | **chaos-mesh** | [https://github.com/chaos-mesh/chaos-mesh](https://github.com/chaos-mesh/chaos-mesh) | It is a cloud-native Chaos Engineering platform that orchestrates chaos on Kubernetes environments |![Chaos mesh](https://img.shields.io/github/stars/chaos-mesh/chaos-mesh?style=for-the-badge) |
 | **Chaos monkey** | [https://netflix.github.io/chaosmonkey/](https://netflix.github.io/chaosmonkey/) | Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures. |![Chaos monkey](https://img.shields.io/github/stars/Netflix/chaosmonkey?style=for-the-badge) |
+| **Chaos Engine** | [https://thalesgroup.github.io/chaos-engine/](https://thalesgroup.github.io/chaos-engine/) | The Chaos Engine is a tool that is designed to intermittently destroy or degrade application resources running in cloud based infrastructure. These events are designed to occur while the appropriate resources are available to resolve the issue if the platform fails to do so on it's own. |![Chaos Engine](https://img.shields.io/github/stars/thalesgroup/chaos-engine?style=for-the-badge) |
 | **chaoskube** | [https://github.com/linki/chaoskube ](https://github.com/linki/chaoskube ) | Test how your system behaves under arbitrary pod failures. |![chaoskube](https://img.shields.io/github/stars/linki/chaoskube?style=for-the-badge) |
 | **Kube-Invaders** | [https://github.com/lucky-sideburn/KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders) | Gamified chaos engineering tool for Kubernetes |![chaoskube](https://img.shields.io/github/stars/lucky-sideburn/KubeInvaders?style=for-the-badge) |
 | **kube-monkey** | [https://github.com/asobti/kube-monkey](https://github.com/asobti/kube-monkey) | Gamified chaos engineering tool for Kubernetes |![kube-monkey](https://img.shields.io/github/stars/asobti/kube-monkey?style=for-the-badge) |
@@ -310,6 +316,7 @@ Event driven security help to drive, automate and execute tasks for security pro
 | **StackStorm** | [https://github.com/StackStorm/st2](https://github.com/StackStorm/st2) | Platform for integration and automation across services and tools supporting event driven security |![StackStorm](https://img.shields.io/github/stars/StackStorm/st2?style=for-the-badge) | 
 | **Camunda** | [https://github.com/camunda/camunda-bpm-platform](https://github.com/camunda/camunda-bpm-platform) | Workflow and process automation |![Camunda](https://img.shields.io/github/stars/camunda/camunda-bpm-platform?style=for-the-badge)| 
 | **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
+| **Faraday** | [https://github.com/infobyte/faraday](https://github.com/infobyte/faraday) | Security suite for Security Orchestration, vulnerability management and centralized information |![Faraday](https://img.shields.io/github/stars/infobyte/faraday) |
 
 # Methodologies, whitepapers and architecture
 
@@ -354,6 +361,7 @@ Here are the other links and resources that do not fit in any previous category.
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
+| **Automated Security Helper (ASH)** | [https://github.com/aws-samples/automated-security-helper](https://github.com/aws-samples/automated-security-helper) | ASH is a one stop shop for security scanners, and does not require any installation. It will identify the different frameworks, and download the relevant, up to date tools. ASH is running on isolated Docker containers, keeping the user environment clean, with a single aggregated report. The following frameworks are supported: Git, Python, Javascript, Cloudformation, Terraform and Jupyter Notebooks.  |![ASH](https://img.shields.io/github/stars/aws-samples/automated-security-helper?style=for-the-badge) | 
 | **Mobile security framework** | [https://github.com/MobSF/Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | SAST, DAST and pentesting tool for mobile apps |![MobSF](https://img.shields.io/github/stars/MobSF/Mobile-Security-Framework-MobSF?style=for-the-badge) |
 
 Training - https://www.practical-devsecops.com/devsecops-university/ 
