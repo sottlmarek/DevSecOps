@@ -152,7 +152,6 @@ Static code review tools working with source code and looking for known patterns
 | **SonarQube community** | [https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | Detect security issues in code review with Static Application Security Testing (SAST) |![SonarQube](https://img.shields.io/github/stars/SonarSource/sonarqube?style=for-the-badge) | 
 | **gosec** | [https://github.com/securego/gosec](https://github.com/securego/gosec) | Inspects source code for security problems by scanning the Go AST. |![gosec](https://img.shields.io/github/stars/securego/gosec?style=for-the-badge) | 
 | **Safety** | [https://github.com/pyupio/safety](https://github.com/pyupio/safety) | Checks Python dependencies for known security vulnerabilities . |![Safety](https://img.shields.io/github/stars/pyupio/safety?style=for-the-badge) | 
-| **Pyrebox** | [https://github.com/Cisco-Talos/pyrebox](https://github.com/Cisco-Talos/pyrebox) |  Python scriptable Reverse Engineering Sandbox, a Virtual Machine instrumentation and inspection framework based on QEMU . |![Pyrebox](https://img.shields.io/github/stars/Cisco-Talos/pyrebox?style=for-the-badge) |
 
 **Note:** Semgrep is free CLI tool, however some rulesets (https://semgrep.dev/r) are having various licences, some can be free to use and can be commercial.  
 
