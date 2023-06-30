@@ -313,6 +313,9 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
 | **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) |
 
+## Network Intrusion Prevention
+| **CrowdSec** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
+
 ## Orchestration 
 
 Event driven security help to drive, automate and execute tasks for security processes. The tools here and not dedicated security tools but are helping to automate and orchestrate security tasks or are part of most modern security automation frameworks or tools. 
