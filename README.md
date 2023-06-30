@@ -318,7 +318,7 @@ Network Intrusion Prevention (NIP) is a security mechanism used to detect and pr
 
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
-| **CrowdSec** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
+| **CrowdSec** | [https://github.com/crowdsecurity/crowdsec)](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
 
 ## Orchestration 
 
