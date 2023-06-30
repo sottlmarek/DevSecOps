@@ -314,6 +314,10 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) |
 
 ## Network Intrusion Prevention
+Network Intrusion Prevention (NIP) is a security mechanism used to detect and prevent unauthorized access, attacks, or malicious activities on a computer network. It is designed to monitor network traffic in real-time, identify potential threats, and take proactive measures to mitigate them.
+
+| Name | URL | Description | Meta |
+| :---------- | :---------- | :---------- | :----------: |
 | **CrowdSec** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
 
 ## Orchestration 
