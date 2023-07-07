@@ -80,6 +80,7 @@ Modern DevSecOps tools allow using Threat modeling as code or generation of thre
 | **DevSkim** | [https://github.com/microsoft/DevSkim](https://github.com/microsoft/DevSkim) |  DevSkim is a framework of IDE extensions and language analyzers that provide inline security analysis |![DevSkim](https://img.shields.io/github/stars/microsoft/DevSkim?style=for-the-badge)|
 | **detect-secrets** | [https://github.com/Yelp/detect-secrets](https://github.com/Yelp/detect-secrets) |  Detects secrets in your codebase |![DevSkim](https://img.shields.io/github/stars/Yelp/detect-secrets?style=for-the-badge)| 
 | **tflint** | [https://github.com/terraform-linters/tflint](https://github.com/terraform-linters/tflint) | A Pluggable Terraform Linter | ![tflint](https://img.shields.io/github/stars/terraform-linters/tflint?style=for-the-badge)|
+| **Steampipe Code Plugin** | [https://github.com/turbot/steampipe-plugin-code](https://github.com/turbot/steampipe-plugin-code) | Use SQL to detect secrets from source code and data sources. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-plugin-code)](https://github.com/turbot/steampipe-plugin-code/stargazers) |
 
 ## Secrets management 
 Secrets management includes managing, versioning, encryption, discovery, rotating, provisioning of passwords, certificates, configuration values and other types of secrets. 
@@ -202,7 +203,9 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Kubernetes-sigs BOM** | [https://github.com/kubernetes-sigs/bom](https://img.shields.io/github/stars/kubernetes-sigs/bom) |Kubernetes BOM generator |[![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom)](https://img.shields.io/github/stars/kubernetes-sigs/bom) | 
 | **Capsule** | [https://github.com/clastix/capsule](https://github.com/clastix/capsule) | A multi-tenancy and policy-based framework for Kubernetes |![GitHub stars](https://img.shields.io/github/stars/clastix/capsule) |
 | **Badrobot** | [https://github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) | Badrobot is a Kubernetes Operator audit tool |![GitHub stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
-| **Istio** | [https://istio.io](https://istio.io) | Istio is a service mesh based on Envoy. Engage encryption, role-based access, and authentication across services. ||![GitHub stars](https://img.shields.io/github/stars/istio/istio) |
+| **Istio** | [https://istio.io](https://istio.io) | Istio is a service mesh based on Envoy. Engage encryption, role-based access, and authentication across services. |![GitHub stars](https://img.shields.io/github/stars/istio/istio) |
+| **Kubernetes Insights** | [https://github.com/turbot/steampipe-mod-kubernetes-insights](https://github.com/turbot/steampipe-mod-kubernetes-insights) | Visualize Kubernetes inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-insights)](https://github.com/turbot/steampipe-mod-kubernetes-insights/stargazers) |
+| **Kubernetes Compliance** | [https://github.com/turbot/steampipe-mod-kubernetes-compliance](https://github.com/turbot/steampipe-mod-kubernetes-compliance) | Check compliance of Kubernetes configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-compliance)](https://github.com/turbot/steampipe-mod-kubernetes-compliance/stargazers) |
 
 
 ## Containers 
@@ -229,6 +232,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **ScoutSuite** | [https://github.com/nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite) | NCCgroup mutlicloud scanning tool |![ScoutSuite](https://img.shields.io/github/stars/nccgroup/ScoutSuite?style=for-the-badge) |
 | **CloudCustodian** | [https://github.com/cloud-custodian/cloud-custodian/](https://github.com/cloud-custodian/cloud-custodian/) | Multicloud security analysis framework |![CloudCustodian](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) | 
 | **CloudGraph** | [https://github.com/cloudgraphdev/cli](https://github.com/cloudgraphdev/cli) | GraphQL API + Security for AWS, Azure, GCP, and K8s |![CloudGraph](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) |
+| **Steampipe** | [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe) | Instantly query your cloud, code, logs & more with SQL. Build on thousands of open-source benchmarks & dashboards for security & insights. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe)](https://github.com/turbot/steampipe/stargazers) |
 
 ## AWS 
 
@@ -256,6 +260,8 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **AWS Firewall factory** | [Globaldatanet FMS automation](https://github.com/globaldatanet/aws-firewall-factory) |Deploy, update, and stage your WAFs while managing them centrally via FMS | ![Globaldatanet Firewall factory](https://img.shields.io/github/stars/globaldatanet/aws-firewall-factory?style=for-the-badge)| 
 | **Parliment** | [Parliment](https://github.com/duo-labs/parliament) | Parliament is an AWS IAM linting library | ![IAM linting](https://img.shields.io/github/stars/duo-labs/parliament?style=for-the-badge)| 
 | **Yor** | [Yor](https://github.com/bridgecrewio/yor) | Adds informative and consistent tags across infrastructure-as-code frameworks such as Terraform, CloudFormation, and Serverless | ![Yor](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge)|
+| **AWS Insights** | [https://github.com/turbot/steampipe-mod-aws-insights](https://github.com/turbot/steampipe-mod-aws-insights) | Visualize AWS inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-insights)](https://github.com/turbot/steampipe-mod-aws-insights/stargazers) |
+| **AWS Compliance** | [https://github.com/turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Check compliance of AWS configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-compliance)](https://github.com/turbot/steampipe-mod-aws-compliance/stargazers) |
 
 
 ## Google cloud platform 
@@ -265,7 +271,18 @@ GCP specific DevSecOps tooling. Tools here cover different areas like inventory 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **Forseti** | [https://github.com/forseti-security/forseti-security](https://github.com/forseti-security/forseti-security) | Complex security orchestration and scanning platform | ![Forseti](https://img.shields.io/github/stars/forseti-security/forseti-security?style=for-the-badge)|
+| **GCP Insights** | [https://github.com/turbot/steampipe-mod-gcp-insights](https://github.com/turbot/steampipe-mod-gcp-insights) | Visualize GCP inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-gcp-insights)](https://github.com/turbot/steampipe-mod-gcp-insights/stargazers) |
+| **GCP Compliance** | [https://github.com/turbot/steampipe-mod-gcp-compliance](https://github.com/turbot/steampipe-mod-gcp-compliance) | Check compliance of GCP configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-gcp-compliance)](https://github.com/turbot/steampipe-mod-gcp-compliance/stargazers) |
 
+
+## Microsoft Azure 
+
+Azure specific DevSecOps tooling. Tools here cover different areas like inventory management, misconfiguration scanning or IAM roles and policies review. 
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **Azure Insights** | [https://github.com/turbot/steampipe-mod-azure-insights](https://github.com/turbot/steampipe-mod-azure-insights) | Visualize Azure inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-azure-insights)](https://github.com/turbot/steampipe-mod-azure-insights/stargazers) |
+| **Azure Compliance** | [https://github.com/turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance) | Check compliance of Azure configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-azure-compliance)](https://github.com/turbot/steampipe-mod-azure-compliance/stargazers) |
 
 ## Policy as code
 
@@ -312,6 +329,10 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **cfsec** | [https://github.com/aquasecurity/cfsec](https://github.com/aquasecurity/cfsec) | cfsec scans CloudFormation configuration files for security issues |![cfsec](https://img.shields.io/github/stars/aquasecurity/cfsec?style=for-the-badge) | 
 | **cfn_nag** | [https://github.com/stelligent/cfn_nag](https://github.com/stelligent/cfn_nag) |  Looks for insecure patterns in CloudFormation |![cfnag](https://img.shields.io/github/stars/stelligent/cfn_nag?style=for-the-badge) | 
 | **Sysdig IaC scanner action** | [https://github.com/sysdiglabs/cloud-iac-scanner-action](https://github.com/sysdiglabs/cloud-iac-scanner-action) |  Scans your repository with Sysdig IAC Scanner and report the vulnerabilities. |![sysdig iac scanner](https://img.shields.io/github/stars/sysdiglabs/cloud-iac-scanner-action?style=for-the-badge) |
+| **Terraform Compliance for AWS** | [https://github.com/turbot/steampipe-mod-terraform-aws-compliance](https://github.com/turbot/steampipe-mod-terraform-aws-compliance) | Check compliance of Terraform configurations to AWS security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-aws-compliance)](https://github.com/turbot/steampipe-mod-terraform-aws-compliance/stargazers) |
+| **Terraform Compliance for Azure** | [https://github.com/turbot/steampipe-mod-terraform-azure-compliance](https://github.com/turbot/steampipe-mod-terraform-azure-compliance) | Check compliance of Terraform configurations to Azure security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-azure-compliance)](https://github.com/turbot/steampipe-mod-terraform-azure-compliance/stargazers) |
+| **Terraform Compliance for GCP** | [https://github.com/turbot/steampipe-mod-terraform-gcp-compliance](https://github.com/turbot/steampipe-mod-terraform-gcp-compliance) | Check compliance of Terraform configurations to GCP security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-gcp-compliance)](https://github.com/turbot/steampipe-mod-terraform-gcp-compliance/stargazers) |
+| **Terraform Compliance for OCI** | [https://github.com/turbot/steampipe-mod-terraform-oci-compliance](https://github.com/turbot/steampipe-mod-terraform-oci-compliance) | Check compliance of Terraform configurations to OCI security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-oci-compliance)](https://github.com/turbot/steampipe-mod-terraform-oci-compliance/stargazers) |
 
 ## Orchestration 
 
