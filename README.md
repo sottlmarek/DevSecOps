@@ -203,10 +203,10 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Kubernetes-sigs BOM** | [https://github.com/kubernetes-sigs/bom](https://img.shields.io/github/stars/kubernetes-sigs/bom) |Kubernetes BOM generator |[![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/bom)](https://img.shields.io/github/stars/kubernetes-sigs/bom) | 
 | **Capsule** | [https://github.com/clastix/capsule](https://github.com/clastix/capsule) | A multi-tenancy and policy-based framework for Kubernetes |![GitHub stars](https://img.shields.io/github/stars/clastix/capsule) |
 | **Badrobot** | [https://github.com/controlplaneio/badrobot](https://github.com/controlplaneio/badrobot) | Badrobot is a Kubernetes Operator audit tool |![GitHub stars](https://img.shields.io/github/stars/controlplaneio/badrobot) |
+| **kube-scan** | [https://github.com/octarinesec/kube-scan](https://github.com/octarinesec/kube-scan) |  k8s cluster risk assessment tool | ![kube-scan](https://img.shields.io/github/stars/octarinesec/kube-scan?style=for-the-badge)
 | **Istio** | [https://istio.io](https://istio.io) | Istio is a service mesh based on Envoy. Engage encryption, role-based access, and authentication across services. |![GitHub stars](https://img.shields.io/github/stars/istio/istio) |
 | **Kubernetes Insights** | [https://github.com/turbot/steampipe-mod-kubernetes-insights](https://github.com/turbot/steampipe-mod-kubernetes-insights) | Visualize Kubernetes inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-insights)](https://github.com/turbot/steampipe-mod-kubernetes-insights/stargazers) |
 | **Kubernetes Compliance** | [https://github.com/turbot/steampipe-mod-kubernetes-compliance](https://github.com/turbot/steampipe-mod-kubernetes-compliance) | Check compliance of Kubernetes configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-compliance)](https://github.com/turbot/steampipe-mod-kubernetes-compliance/stargazers) |
-
 
 ## Containers 
 
