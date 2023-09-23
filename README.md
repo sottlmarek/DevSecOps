@@ -165,6 +165,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **Zap proxy** | [https://owasp.org/www-project-zap/](https://owasp.org/www-project-zap/) | Zap proxy providing various docker containers for CI/CD pipeline|![ZAP](https://img.shields.io/github/stars/zaproxy/zaproxy?style=for-the-badge) | 
+| **Akto** | [https://github.com/akto-api-security/akto/](https://github.com/akto-api-security/akto)) |API Security Testing with 150+ YAML Tests|![Akto](https://img.shields.io/github/stars/akto-api-security/akto?style=for-the-badge) | 
 | **Wapiti** | [https://github.com/wapiti-scanner/wapiti ](https://github.com/wapiti-scanner/wapiti ) | Light pipeline ready scanning tool |![Wapiti](https://img.shields.io/github/stars/wapiti-scanner/wapiti?style=for-the-badge) | 
 | **Nuclei** | [https://github.com/projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei) | Template based security scanning tool |![Nuclei](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=for-the-badge) | 
 | **purpleteam** | [https://github.com/purpleteam-labs/purpleteam](https://github.com/purpleteam-labs/purpleteam) | CLI DAST tool incubator project |![purpleteam](https://img.shields.io/github/stars/purpleteam-labs/purpleteam?style=for-the-badge) | 
