@@ -172,6 +172,12 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
 | **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
 
+## IAST
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **CakeFuzzer** | [https://github.com/Zigrin-Security/CakeFuzzer](https://github.com/Zigrin-Security/CakeFuzzer) | Cake Fuzzer is a project that is meant to help automatically and continuously discover vulnerabilities in CakePHP based web applications with very limited false positives.|![CakeFuzzer](https://img.shields.io/github/stars/Zigrin-Security/CakeFuzzer?style=for-the-badge) | 
+
 ## Continuous deployment security
 
 | Name | URL | Description | Meta |
