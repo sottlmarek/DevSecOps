@@ -135,7 +135,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)| 
-
+| **HasMySecretLeaked** | [https://gitguardian.com/hasdmysecretleaked](https://giguardian.com/hasmysecretleaked) | Search across 20 million exposed secrets in public GitHub repositories, gists, issues,and comments
 
 ## SAST
 
