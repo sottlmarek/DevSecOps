@@ -1,7 +1,7 @@
 DEVSECOPS MANIFESTO 
 ==========
 
-With DevSecOps, part of the architecture can be captured as a code. Centralized configuration management and infrastructure are widely used as a code. Even the compliance and audit can and must be standardised in structured language. 
+With DevSecOps, part of the architecture can be captured as a code. Centralized configuration management and infrastructure are widely used as a code. Even the compliance and audit can and must be standardised in a structured language. 
 
 Structured languages that are used to configure databases, firewalls, servers, applications, or containers, must be readable. Architectural standards are defined only once and evolving based on the need of internal or external customers, and the code is automatically distributed and configured on all architectural components of specific type. A high degree of automation is critical parameter to security in agile environments. The DevSecOps toolkit provides a complete process of deploying, building and innovating systems in a controlled manner. 
 
