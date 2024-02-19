@@ -25,22 +25,31 @@ This library contains list of tools and methodologies accompanied with resources
 
 # Table of Contents
 
-- [Definition](#what-is-devsecops)
+- [Ultimate DevSecOps library](#ultimate-devsecops-library)
+  - [Contribution rules](#contribution-rules)
+- [Table of Contents](#table-of-contents)
+- [What is DevSecOps](#what-is-devsecops)
 - [Tooling](#tooling)
-- [Precommit and threat modeling](#pre-commit-time-tools)
-- [SAST](#sast)
-- [DAST](#dast)
-- [Orchestration](#orchestration)
-- [Supply chain and dependencies](#oss-and-dependency-management)
-- [Infrastructure as code](#infrastructure-as-code-security)
-- [Containers security](#containers)
-- [Kubernetes](#kubernetes) 
-- [Cloud](#multi-cloud)
-- [Chaos engineering](#chaos-engineering)
-- [Policy as code](#policy-as-code)
-- [Methodologies](#methodologies-whitepapers-and-architecture)
+  - [Pre-commit time tools](#pre-commit-time-tools)
+  - [Secrets management](#secrets-management)
+  - [OSS and Dependency management](#oss-and-dependency-management)
+  - [Supply chain specific tools](#supply-chain-specific-tools)
+  - [SAST](#sast)
+  - [DAST](#dast)
+  - [Continuous deployment security](#continuous-deployment-security)
+  - [Kubernetes](#kubernetes)
+  - [Containers](#containers)
+  - [Multi-Cloud](#multi-cloud)
+  - [AWS](#aws)
+  - [Google cloud platform](#google-cloud-platform)
+  - [Microsoft Azure](#microsoft-azure)
+  - [Policy as code](#policy-as-code)
+  - [Chaos engineering](#chaos-engineering)
+  - [Infrastructure as code security](#infrastructure-as-code-security)
+  - [Orchestration](#orchestration)
+- [Methodologies, whitepapers and architecture](#methodologies-whitepapers-and-architecture)
 - [Other](#other)
-- [License](#license) 
+- [License](#license)
 
 # What is DevSecOps 
 DevSecOps focuses on security automation, testing and enforcement during DevOps - Release - SDLC cycles. The whole meaning behind this methodology is connecting together Development, Security and Operations. DevSecOps is methodology providing different methods, techniques and processes backed mainly with tooling focusing on developer / security experience. 
@@ -134,7 +143,8 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **in-toto** | [https://github.com/in-toto/attestation/tree/v0.1.0/spec](https://github.com/in-toto/attestation/tree/v0.1.0/spec) | An in-toto attestation is authenticated metadata about one or more software artifacts |![in-toto](https://img.shields.io/github/stars/in-toto/attestation?style=for-the-badge) | 
 | **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
-| **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)| 
+| **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
+| **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
 
 
 ## SAST
@@ -208,6 +218,8 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Istio** | [https://istio.io](https://istio.io) | Istio is a service mesh based on Envoy. Engage encryption, role-based access, and authentication across services. |![GitHub stars](https://img.shields.io/github/stars/istio/istio) |
 | **Kubernetes Insights** | [https://github.com/turbot/steampipe-mod-kubernetes-insights](https://github.com/turbot/steampipe-mod-kubernetes-insights) | Visualize Kubernetes inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-insights)](https://github.com/turbot/steampipe-mod-kubernetes-insights/stargazers) |
 | **Kubernetes Compliance** | [https://github.com/turbot/steampipe-mod-kubernetes-compliance](https://github.com/turbot/steampipe-mod-kubernetes-compliance) | Check compliance of Kubernetes configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-compliance)](https://github.com/turbot/steampipe-mod-kubernetes-compliance/stargazers) |
+| **trivy-operator** | [https://github.com/aquasecurity/trivy-operator](https://github.com/aquasecurity/trivy-operator) | Kubernetes-native security toolkit. | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy-operator)](https://github.com/aquasecurity/trivy-operator/stargazers) | 
+
 
 ## Containers 
 
@@ -224,6 +236,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Cosign** | [https://github.com/sigstore/cosign](https://github.com/sigstore/cosign) | Container signing|![Cosign](https://img.shields.io/github/stars/sigstore/cosign?style=for-the-badge) | 
 | **watchtower** | [https://github.com/containrrr/watchtower](https://github.com/containrrr/watchtower) | Updates the running version of your containerized app |![watchtower](https://img.shields.io/github/stars/containrrr/watchtower?style=for-the-badge) |
 | **Grype** | [https://github.com/anchore/grype](https://github.com/anchore/grype) | Vulnerability scanner for container images (and also filesystems). |![Grype](https://img.shields.io/github/stars/anchore/grype?style=for-the-badge) |
+| **Copacetic** | [https://github.com/project-copacetic/copacetic](https://github.com/project-copacetic/copacetic) | CLI tool for directly patching container images |![Copacetic](https://img.shields.io/github/stars/project-copacetic/copacetic?style=for-the-badge) | 
 
 ## Multi-Cloud 
 
