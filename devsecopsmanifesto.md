@@ -1,4 +1,4 @@
-DEVSECOPS MANIFESTO 
+DEVSECOPS MANIFESTO TEST
 ==========
 
 With DevSecOps, part of the architecture can be captured as a code. Centralized configuration management and infrastructure are widely used as a code. Even the compliance and audit can and must be standardised in structured language. 
