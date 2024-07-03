@@ -7,7 +7,7 @@ If you want to contribute to this library of knowledge please create proper PR (
 * Keep it simple - Fill the description properly
 * Fact over feelings or personal opinions
 * Add source and follow the library style
-* Avoid duplicits - one tool, one topic 
+* Avoid duplicates - one tool, one topic
 * Try to make bigger updates then on tool link
 * Currently open-source only
 * Add only active projects 
@@ -21,7 +21,7 @@ _Note:_ Currently this is an early version of the library. I recommend PR after 
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
-This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope. 
+This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cybersecurity in the cloud and the DevSecOps scope.
 
 # Table of Contents
 
@@ -67,7 +67,7 @@ Various definitions:
 
 ## Pre-commit time tools
 
-In this section you can find lifecycle helpers, precommit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you to simulate and discover potential gaps before you start to develop the software or during the process.
+In this section you can find lifecycle helpers, pre-commit hook tools and threat modeling tools. Threat modeling tools are specific category by themselves allowing you to simulate and discover potential gaps before you start to develop the software or during the process.
 
 Modern DevSecOps tools allow using Threat modeling as code or generation of threat models based on the existing code annotations. 
 
