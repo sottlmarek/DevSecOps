@@ -132,6 +132,7 @@ Dependency security testing and analysis is very important part of discovering s
 | **npm-check** | [https://www.npmjs.com/package/npm-check](https://www.npmjs.com/package/npm-check) | Check for outdated, incorrect, and unused dependencies. |![npm-check](https://img.shields.io/github/stars/dylang/npm-check?style=for-the-badge)| 
 | **Security Scorecards** | [https://securityscorecards.dev](https://securityscorecards.dev) | Checks for several security health metrics on open source libraries and provides a score (0-10) to be considered in the decision making of what libraries to use. |![scorecard](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge)| 
 | **Syft** | [https://github.com/anchore/syft](https://github.com/anchore/syft) | CLI tool and library for generating an SBOM from container images (and filesystems). |![syft](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge)| 
+| **OSS Review Toolkit** | [https://github.com/oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | A suite of tools to automate software compliance checks. |![ort](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=for-the-badge)| 
 
 ## Supply chain specific tools 
 
