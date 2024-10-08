@@ -298,6 +298,8 @@ Azure specific DevSecOps tooling. Tools here cover different areas like inventor
 | :---------- | :---------- | :---------- | :----------: |
 | **Azure Insights** | [https://github.com/turbot/steampipe-mod-azure-insights](https://github.com/turbot/steampipe-mod-azure-insights) | Visualize Azure inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-azure-insights)](https://github.com/turbot/steampipe-mod-azure-insights/stargazers) |
 | **Azure Compliance** | [https://github.com/turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance) | Check compliance of Azure configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-azure-compliance)](https://github.com/turbot/steampipe-mod-azure-compliance/stargazers) |
+| **PSRule.Rules.Azure** | [https://github.com/Azure/PSRule.Rules.Azure](https://github.com/Azure/PSRule.Rules.Azure) | Check ARM, Bicep or Live Azure Tenant for security configuration best practices | [![GitHub stars](https://img.shields.io/github/stars/Azure/PSRule.Rules.Azure)](https://github.com/Azure/PSRule.Rules.Azure/stargazers) |
+| **PSRule.Rules.AzureDevOps** | [https://github.com/cloudyspells/PSRule.Rules.AzureDevOps](https://github.com/cloudyspells/PSRule.Rules.AzureDevOps) | Check Azure DevOps project for security configuration best practices | [![GitHub stars](https://img.shields.io/github/stars/cloudyspells/PSRule.Rules.AzureDevOps)](https://github.com/cloudyspells/PSRule.Rules.AzureDevOps/stargazers) |
 
 ## Policy as code
 
