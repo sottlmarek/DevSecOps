@@ -351,6 +351,13 @@ Scanning your infrastructure when it is only code helps shift-left the security.
 | **Terraform Compliance for GCP** | [https://github.com/turbot/steampipe-mod-terraform-gcp-compliance](https://github.com/turbot/steampipe-mod-terraform-gcp-compliance) | Check compliance of Terraform configurations to GCP security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-gcp-compliance)](https://github.com/turbot/steampipe-mod-terraform-gcp-compliance/stargazers) |
 | **Terraform Compliance for OCI** | [https://github.com/turbot/steampipe-mod-terraform-oci-compliance](https://github.com/turbot/steampipe-mod-terraform-oci-compliance) | Check compliance of Terraform configurations to OCI security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-terraform-oci-compliance)](https://github.com/turbot/steampipe-mod-terraform-oci-compliance/stargazers) |
 
+## Network Intrusion Prevention
+Network Intrusion Prevention (NIP) is a security mechanism used to detect and prevent unauthorized access, attacks, or malicious activities on a computer network. It is designed to monitor network traffic in real-time, identify potential threats, and take proactive measures to mitigate them.
+
+| Name | URL | Description | Meta |
+| :---------- | :---------- | :---------- | :----------: |
+| **CrowdSec** | [https://github.com/crowdsecurity/crowdsec)](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
+
 ## Orchestration 
 
 Event driven security help to drive, automate and execute tasks for security processes. The tools here and not dedicated security tools but are helping to automate and orchestrate security tasks or are part of most modern security automation frameworks or tools. 
