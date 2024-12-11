@@ -256,7 +256,6 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
-| **Dragoneye** | [https://github.com/indeni/dragoneye](https://github.com/indeni/dragoneye) | Dragoneye Indeni AWS scanner |![Dragoneye](https://img.shields.io/github/stars/indeni/dragoneye?style=for-the-badge) |
 | **Prowler** | [https://github.com/toniblyx/prowler](https://github.com/toniblyx/prowler) | Prowler is a command line tool that helps with AWS security assessment, auditing, hardening and incident response. |![Prowler](https://img.shields.io/github/stars/toniblyx/prowler?style=for-the-badge) |
 | **aws-inventory** | [https://github.com/nccgroup/aws-inventory](https://github.com/nccgroup/aws-inventory) | Helps to discover all AWS resources created in an account|![aws-inventory](https://img.shields.io/github/stars/nccgroup/aws-inventory?style=for-the-badge) |
 | **PacBot** | [https://github.com/tmobile/pacbot](https://github.com/tmobile/pacbot) | Policy as Code Bot (PacBot)|![pacbot](https://img.shields.io/github/stars/tmobile/pacbot?style=for-the-badge) |
