@@ -410,6 +410,7 @@ GCP whitepapers:
 * https://services.google.com/fh/files/misc/security_whitepapers_march2018.pdf 
 * https://cloud.google.com/security/encryption-in-transit/application-layer-transport-security 
 * https://services.google.com/fh/files/misc/google-cloud-security-foundations-guide.pdf
+- [Anchor Browser](https://anchorbrowser.io) - Browser infrastructure for AI agents
 
 # Other
 
