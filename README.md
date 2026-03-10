@@ -378,7 +378,8 @@ Event driven security help to drive, automate and execute tasks for security pro
 
 # Methodologies, whitepapers and architecture
 
-List of resources worth investigating: 
+List of resources worth investigating:
+* https://sase.cloud - Independent SASE & SSE knowledge base with Zero Trust architecture guides, vendor comparisons, and deployment playbooks for ZTNA, SWG, CASB, DLP, FWaaS, and DEM.
 * https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf
 * https://dodcio.defense.gov/Portals/0/Documents/Library/DoDEnterpriseDevSecOpsStrategyGuide.pdf 
 * https://csrc.nist.gov/publications/detail/sp/800-204c/draft 
