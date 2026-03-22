@@ -116,7 +116,9 @@ Dependency security testing and analysis is very important part of discovering s
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **CycloneDX** | [https://github.com/orgs/CycloneDX/repositories](https://github.com/orgs/CycloneDX/repositories) | CycloneDX format for **SBOM** |![CycloneDX](https://img.shields.io/github/stars/CycloneDX/cyclonedx-cli?style=for-the-badge) | 
-| **cdxgen** | [https://github.com/AppThreat/cdxgen](https://github.com/AppThreat/cdxgen) | Generates CycloneDX **SBOM**, supports many languages and package managers. |![CycloneDX](https://img.shields.io/github/stars/AppThreat/cdxgen?style=for-the-badge) | 
+| **cdxgen** | [https://github.com/AppThreat/cdxgen](https://github.com/AppThreat/cdxgen) | Generates CycloneDX **SBOM**, supports many languages and package managers. |![CycloneDX](https://img.shields.io/github/stars/AppThreat/cdxgen?style=for-the-badge) |
+| **ClawSec** | [https://github.com/clawsec/clawsec](https://github.com/clawsec/clawsec) | Automated security auditor for AI agent skills — static analysis, permissions review, and trust scoring for the AI agent skill supply chain |![ClawSec](https://img.shields.io/github/stars/clawsec/clawsec?style=for-the-badge) |
+| **ClawSearch** | [https://github.com/clawsec/clawsearch](https://github.com/clawsec/clawsearch) | AI agent skill discovery with Trust Score safety ratings and clawsearch-guard for pre-install dependency security checks |![ClawSearch](https://img.shields.io/github/stars/clawsec/clawsearch?style=for-the-badge) |
 | **SPDX** | [https://github.com/spdx/spdx-spec](https://github.com/spdx/spdx-spec) | SPDX format for **SBOM** - Software Package Data Exchange |![SpDX](https://img.shields.io/github/stars/spdx/spdx-spec?style=for-the-badge) | 
 | **Snyk** | [https://github.com/snyk/snyk](https://github.com/snyk/snyk) | Snyk scans and monitors your projects for security vulnerabilities |![Snyk](https://img.shields.io/github/stars/snyk/snyk?style=for-the-badge) | 
 | **vulncost** | [https://github.com/snyk/vulncost](https://github.com/snyk/vulncost) | Security Scanner for VS Code |![Vulncost](https://img.shields.io/github/stars/snyk/vulncost?style=for-the-badge) |
@@ -146,7 +148,9 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **SLSA** | [Official GitHub link](https://github.com/slsa-framework/slsa/blob/main/docs/index.md ) | Supply-chain Levels for Software Artifacts |![SLSA](https://img.shields.io/github/stars/slsa-framework/slsa?style=for-the-badge) | 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
-| **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)|
+| **ClawSec** | [https://github.com/clawsec/clawsec](https://github.com/clawsec/clawsec) | Security audit tool for AI agent skill supply chain — scans skills for vulnerabilities, excessive permissions, and malicious patterns |![ClawSec](https://img.shields.io/github/stars/clawsec/clawsec?style=for-the-badge) |
+| **ClawSearch** | [https://github.com/clawsec/clawsearch](https://github.com/clawsec/clawsearch) | AI agent skill discovery with clawsearch-guard for pre-install supply chain security verification |![ClawSearch](https://img.shields.io/github/stars/clawsec/clawsearch?style=for-the-badge) |
 
 
 ## SAST
