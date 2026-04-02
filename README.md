@@ -285,6 +285,7 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **Yor** | [Yor](https://github.com/bridgecrewio/yor) | Adds informative and consistent tags across infrastructure-as-code frameworks such as Terraform, CloudFormation, and Serverless | ![Yor](https://img.shields.io/github/stars/bridgecrewio/yor?style=for-the-badge)|
 | **AWS Insights** | [https://github.com/turbot/steampipe-mod-aws-insights](https://github.com/turbot/steampipe-mod-aws-insights) | Visualize AWS inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-insights)](https://github.com/turbot/steampipe-mod-aws-insights/stargazers) |
 | **AWS Compliance** | [https://github.com/turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Check compliance of AWS configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-compliance)](https://github.com/turbot/steampipe-mod-aws-compliance/stargazers) |
+| **cloud-audit** | [https://github.com/gebalamariusz/cloud-audit](https://github.com/gebalamariusz/cloud-audit) | Open-source AWS security scanner with attack chain detection and auto-remediation |![cloud-audit](https://img.shields.io/github/stars/gebalamariusz/cloud-audit?style=for-the-badge) |
 
 
 ## Google cloud platform 
