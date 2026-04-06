@@ -1,5 +1,6 @@
 # Ultimate DevSecOps library
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Claude Code with security scanning, code review, and automated DevSecOps quality gates. MIT licensed.
 ## Contribution rules
 If you want to contribute to this library of knowledge please create proper PR (Pull Request) with description what you are adding following these set of rules: 
 
