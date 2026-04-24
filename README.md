@@ -229,6 +229,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Kubernetes Compliance** | [https://github.com/turbot/steampipe-mod-kubernetes-compliance](https://github.com/turbot/steampipe-mod-kubernetes-compliance) | Check compliance of Kubernetes configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-compliance)](https://github.com/turbot/steampipe-mod-kubernetes-compliance/stargazers) |
 | **trivy-operator** | [https://github.com/aquasecurity/trivy-operator](https://github.com/aquasecurity/trivy-operator) | Kubernetes-native security toolkit. | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy-operator)](https://github.com/aquasecurity/trivy-operator/stargazers) | 
 | **nullsec-k8sscan** | [https://github.com/bad-antics/nullsec-k8sscan](https://github.com/bad-antics/nullsec-k8sscan) | Kubernetes security scanner for RBAC, network policies, pod security, and secrets management |![nullsec-k8sscan](https://img.shields.io/github/stars/bad-antics/nullsec-k8sscan?style=for-the-badge) |
+| **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 
 
 ## Containers 
