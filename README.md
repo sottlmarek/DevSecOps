@@ -1,6 +1,18 @@
 # Ultimate DevSecOps library
 
 ## Contribution rules
+
+## OpenClaw Monitor
+
+| | |
+|---|---|
+| **Project** | [flik2002/openclaw-monitor](https://github.com/flik2002/openclaw-monitor) |
+| **Description** | Real-time AI agent monitoring dashboard — tracks Gateway status, sessions, token usage & trends |
+| **Stars** | ⭐ 1.3k+ |
+
+![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor/main/Openclaw%20Monitor.jpg)
+
+
 If you want to contribute to this library of knowledge please create proper PR (Pull Request) with description what you are adding following these set of rules: 
 
 * Clear description of PR (which tool, why, number of stars, maturity and topic) 
