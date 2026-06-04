@@ -435,3 +435,4 @@ DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_
 MIT license
 
 Marek Šottl (c) 2022
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Breaking API change detection for PRs using AST analysis. Prevents production incidents from undetected API contract violations.
