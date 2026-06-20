@@ -287,6 +287,7 @@ AWS specific DevSecOps tooling. Tools here cover different areas like inventory 
 | **AWS Insights** | [https://github.com/turbot/steampipe-mod-aws-insights](https://github.com/turbot/steampipe-mod-aws-insights) | Visualize AWS inventory and permissions through relationship graphs. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-insights)](https://github.com/turbot/steampipe-mod-aws-insights/stargazers) |
 | **AWS Compliance** | [https://github.com/turbot/steampipe-mod-aws-compliance](https://github.com/turbot/steampipe-mod-aws-compliance) | Check compliance of AWS configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-aws-compliance)](https://github.com/turbot/steampipe-mod-aws-compliance/stargazers) |
 | **cloud-audit** | [https://github.com/gebalamariusz/cloud-audit](https://github.com/gebalamariusz/cloud-audit) | Open-source AWS security scanner with attack chain detection and auto-remediation |![cloud-audit](https://img.shields.io/github/stars/gebalamariusz/cloud-audit?style=for-the-badge) |
+| **Shieldly** | [https://www.shieldly.io](https://www.shieldly.io) | AI-Powered security analysis for AWS IAM policies, CloudFormation templates, and costs. Detects over-privilege, privilege escalation paths, wildcard policy risks, and trust policy misconfigurations. Ships as web app, CLI, VS Code extension, and GitHub Action. | ![Shieldly](https://img.shields.io/badge/shieldly.io-AI--Powered-blue) |
 
 
 ## Google cloud platform 
