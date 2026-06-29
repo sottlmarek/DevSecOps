@@ -134,6 +134,7 @@ Dependency security testing and analysis is very important part of discovering s
 | **Security Scorecards** | [https://securityscorecards.dev](https://securityscorecards.dev) | Checks for several security health metrics on open source libraries and provides a score (0-10) to be considered in the decision making of what libraries to use. |![scorecard](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge)| 
 | **Syft** | [https://github.com/anchore/syft](https://github.com/anchore/syft) | CLI tool and library for generating an SBOM from container images (and filesystems). |![syft](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge)| 
 | **OSS Review Toolkit** | [https://github.com/oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | A suite of tools to automate software compliance checks. |![ort](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=for-the-badge)| 
+| **ReleaseRun** | [https://github.com/Releaserun/releaserun-cli](https://github.com/Releaserun/releaserun-cli) | CLI and GitHub Action to scan dependencies for EOL dates, CVE risk, and health grades — covers Node.js, Python, Go, Rust, Ruby, PHP and more | ![Stars](https://img.shields.io/github/stars/Releaserun/releaserun-cli?style=flat-square) |
 
 ## Supply chain specific tools 
 
