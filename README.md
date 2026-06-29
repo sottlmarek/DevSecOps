@@ -258,6 +258,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **CloudCustodian** | [https://github.com/cloud-custodian/cloud-custodian/](https://github.com/cloud-custodian/cloud-custodian/) | Multicloud security analysis framework |![CloudCustodian](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) | 
 | **CloudGraph** | [https://github.com/cloudgraphdev/cli](https://github.com/cloudgraphdev/cli) | GraphQL API + Security for AWS, Azure, GCP, and K8s |![CloudGraph](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) |
 | **Steampipe** | [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe) | Instantly query your cloud, code, logs & more with SQL. Build on thousands of open-source benchmarks & dashboards for security & insights. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe)](https://github.com/turbot/steampipe/stargazers) |
+| **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
 
 ## AWS 
 
