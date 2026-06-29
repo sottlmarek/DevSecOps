@@ -21,6 +21,20 @@ _Note:_ Currently this is an early version of the library. I recommend PR after 
 ![stars](https://img.shields.io/github/stars/sottlmarek/DevSecOps?style=for-the-badge)
 ![watchers](https://img.shields.io/github/watchers/sottlmarek/DevSecOps?color=green&style=for-the-badge) ![watchers](https://img.shields.io/github/forks/sottlmarek/DevSecOps?color=orange&style=for-the-badge)
 
+<p align="center">
+  <strong>Sponsored by</strong>
+</p>
+<p align="center">
+  <a href="https://www.kvantumci.com/"><img src="assets/kvantumci.png" alt="KvantumCI" height="44"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://hackihub.com/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hackihub-dark.png">
+      <img src="assets/hackihub-light.png" alt="HackiHub" height="44">
+    </picture>
+  </a>
+</p>
+
 This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope. 
 
 # Table of Contents
@@ -47,6 +61,7 @@ This library contains list of tools and methodologies accompanied with resources
   - [Chaos engineering](#chaos-engineering)
   - [Infrastructure as code security](#infrastructure-as-code-security)
   - [Orchestration](#orchestration)
+  - [AI](#ai)
 - [Methodologies, whitepapers and architecture](#methodologies-whitepapers-and-architecture)
 - [Other](#other)
 - [License](#license)
@@ -229,7 +244,6 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **Kubernetes Compliance** | [https://github.com/turbot/steampipe-mod-kubernetes-compliance](https://github.com/turbot/steampipe-mod-kubernetes-compliance) | Check compliance of Kubernetes configurations to security best practices. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe-mod-kubernetes-compliance)](https://github.com/turbot/steampipe-mod-kubernetes-compliance/stargazers) |
 | **trivy-operator** | [https://github.com/aquasecurity/trivy-operator](https://github.com/aquasecurity/trivy-operator) | Kubernetes-native security toolkit. | [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy-operator)](https://github.com/aquasecurity/trivy-operator/stargazers) | 
 | **nullsec-k8sscan** | [https://github.com/bad-antics/nullsec-k8sscan](https://github.com/bad-antics/nullsec-k8sscan) | Kubernetes security scanner for RBAC, network policies, pod security, and secrets management |![nullsec-k8sscan](https://img.shields.io/github/stars/bad-antics/nullsec-k8sscan?style=for-the-badge) |
-| **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 
 
 ## Containers 
@@ -258,7 +272,6 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **CloudCustodian** | [https://github.com/cloud-custodian/cloud-custodian/](https://github.com/cloud-custodian/cloud-custodian/) | Multicloud security analysis framework |![CloudCustodian](https://img.shields.io/github/stars/cloud-custodian/cloud-custodian?style=for-the-badge) | 
 | **CloudGraph** | [https://github.com/cloudgraphdev/cli](https://github.com/cloudgraphdev/cli) | GraphQL API + Security for AWS, Azure, GCP, and K8s |![CloudGraph](https://img.shields.io/github/stars/cloudgraphdev/cli?style=for-the-badge) |
 | **Steampipe** | [https://github.com/turbot/steampipe](https://github.com/turbot/steampipe) | Instantly query your cloud, code, logs & more with SQL. Build on thousands of open-source benchmarks & dashboards for security & insights. | [![GitHub stars](https://img.shields.io/github/stars/turbot/steampipe)](https://github.com/turbot/steampipe/stargazers) |
-| **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
 
 ## AWS 
 
@@ -380,6 +393,15 @@ Event driven security help to drive, automate and execute tasks for security pro
 | **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
 | **Faraday** | [https://github.com/infobyte/faraday](https://github.com/infobyte/faraday) | Security suite for Security Orchestration, vulnerability management and centralized information |![Faraday](https://img.shields.io/github/stars/infobyte/faraday) |
 
+## AI
+
+Tools leveraging AI, LLMs, or agentic workflows for security research, analysis, and observability across DevSecOps pipelines.
+
+| Name | URL | Description | Meta | 
+| :---------- | :---------- | :---------- | :----------: |
+| **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
+| **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
+
 # Methodologies, whitepapers and architecture
 
 List of resources worth investigating: 
@@ -435,4 +457,4 @@ DevSecOps videos - [Hackitect playground](https://www.youtube.com/channel/UCy0S_
 # License
 MIT license
 
-Marek Šottl (c) 2022
+Marek Šottl (c) 2026
