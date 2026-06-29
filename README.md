@@ -25,12 +25,12 @@ _Note:_ Currently this is an early version of the library. I recommend PR after 
   <strong>Sponsored by</strong>
 </p>
 <p align="center">
-  <a href="https://www.kvantumci.com/"><img src="assets/kvantumci.png" alt="KvantumCI" height="44"></a>
+  <a href="https://www.kvantumci.com/"><img src="assets/kvantumci.png" alt="KvantumCI" height="80"></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://hackihub.com/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/hackihub-dark.png">
-      <img src="assets/hackihub-light.png" alt="HackiHub" height="44">
+      <img src="assets/hackihub-light.png" alt="HackiHub" height="80">
     </picture>
   </a>
 </p>
