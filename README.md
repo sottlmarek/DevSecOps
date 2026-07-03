@@ -401,6 +401,7 @@ Tools leveraging AI, LLMs, or agentic workflows for security research, analysis,
 | :---------- | :---------- | :---------- | :----------: |
 | **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 | **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
+| **USAP** | [https://github.com/jaskaranhundal/usap-skills](https://github.com/jaskaranhundal/usap-skills) | Open-source cybersecurity agent runtime — 79 skills + 12 orchestrator agents exposed via MCP, with a typed 11-field output contract, an enforced resolvable-evidence gate (no verdict without a resolvable source), connector-agnostic routing to downstream security MCPs, and human-approval gating for every mutating action. MITRE ATT&CK + NIST CSF mapped, stdlib-only. |![USAP](https://img.shields.io/github/stars/jaskaranhundal/usap-skills?style=for-the-badge) |
 
 # Methodologies, whitepapers and architecture
 
