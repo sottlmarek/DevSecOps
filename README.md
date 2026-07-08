@@ -162,6 +162,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
 | **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **gh-actions-cli** | [https://github.com/wille/gh-actions-cli](https://github.com/wille/gh-actions-cli) | Pin GitHub Actions to commit SHAs, enforce allowed-actions allowlist policies, and safely update pinned actions |![gh-actions-cli](https://img.shields.io/github/stars/wille/gh-actions-cli?style=for-the-badge)|
 
 
 ## SAST
