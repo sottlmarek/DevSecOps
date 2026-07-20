@@ -381,6 +381,7 @@ Network Intrusion Prevention (NIP) is a security mechanism used to detect and pr
 | Name | URL | Description | Meta |
 | :---------- | :---------- | :---------- | :----------: |
 | **CrowdSec** | [https://github.com/crowdsecurity/crowdsec)](https://github.com/crowdsecurity/crowdsec)  |  Crowdsec is an open-source, lightweight software, detecting peers with aggressive behaviours to prevent them from accessing your systems. |![CrowdSec](https://img.shields.io/github/stars/crowdsecurity/crowdsec) |
+| **AEGIS** | [https://github.com/conchaestradamiguelangel-droid/aegis](https://github.com/conchaestradamiguelangel-droid/aegis) | Autonomous self-hosted IDS/IPS with 9 defense layers (C0-C8), ML-DSA-87 post-quantum signed alerts (NIST FIPS 204), honeypot, AMTD, and behavioral ML — GPL-3.0, Docker. | [![GitHub stars](https://img.shields.io/github/stars/conchaestradamiguelangel-droid/aegis?style=flat)](https://github.com/conchaestradamiguelangel-droid/aegis) |
 
 ## Orchestration 
 
@@ -401,6 +402,7 @@ Tools leveraging AI, LLMs, or agentic workflows for security research, analysis,
 | :---------- | :---------- | :---------- | :----------: |
 | **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 | **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
+| **ENLIL** | [https://github.com/conchaestradamiguelangel-droid/enlil](https://github.com/conchaestradamiguelangel-droid/enlil) | Self-hosted multi-agent LLM council: 9 models deliberate in parallel on any query, output signed with ML-DSA-87 post-quantum signatures (NIST FIPS 204). BYOK via OpenRouter, GPL-3.0, Docker. | [![GitHub stars](https://img.shields.io/github/stars/conchaestradamiguelangel-droid/enlil?style=flat)](https://github.com/conchaestradamiguelangel-droid/enlil) |
 
 # Methodologies, whitepapers and architecture
 
