@@ -401,6 +401,7 @@ Tools leveraging AI, LLMs, or agentic workflows for security research, analysis,
 | :---------- | :---------- | :---------- | :----------: |
 | **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 | **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
+| **SourceryKit** | [https://github.com/ProvablyAI/sourcerykit](https://github.com/ProvablyAI/sourcerykit) | Python SDK that verifies an AI agent's outbound requests and MCP handoffs against a source of truth using zero-knowledge proofs, so a call only goes out if the agent's claims check out. It allow-lists trusted endpoints and logs every outbound call. Source-available SDK with a hosted verification backend | ![SourceryKit](https://img.shields.io/github/stars/ProvablyAI/sourcerykit?style=for-the-badge) |
 
 # Methodologies, whitepapers and architecture
 
