@@ -401,6 +401,7 @@ Tools leveraging AI, LLMs, or agentic workflows for security research, analysis,
 | Name | URL | Description | Meta | 
 | :---------- | :---------- | :---------- | :----------: |
 | **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
+| **Darkmoon** | [https://github.com/ASCIT31/Dark-Moon](https://github.com/ASCIT31/Dark-Moon) | Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools through Markdown playbooks and agentic reasoning, keeping a proof trail per finding. |![Darkmoon](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=for-the-badge) |
 | **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
 
 # Methodologies, whitepapers and architecture
