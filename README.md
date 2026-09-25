@@ -162,6 +162,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
 | **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **agent-evidence-vectors** | [https://github.com/probityai/agent-evidence-vectors](https://github.com/probityai/agent-evidence-vectors) | Conformance vectors and a reference Go verifier for in-toto attestations of AI agent execution, plus SCITT/COSE carriage vectors that keep their own checker until the verifier reads them |![agent-evidence-vectors](https://img.shields.io/github/stars/probityai/agent-evidence-vectors?style=for-the-badge)|
 
 
 ## SAST
@@ -337,6 +338,7 @@ Policy as code is the idea of writing code in a high-level language to manage an
 | **Inspec** | [https://github.com/inspec/inspec](https://github.com/inspec/inspec) | Chef InSpec is an open-source testing framework for infrastructure with a human- and machine-readable language for specifying compliance, security and policy requirements. |![Inspec](https://img.shields.io/github/stars/inspec/inspec?style=for-the-badge) | 
 | **Cloud Formation guard** | [https://github.com/aws-cloudformation/cloudformation-guard](https://github.com/aws-cloudformation/cloudformation-guard) | Cloud Formation policy as code |![cf-guard](https://img.shields.io/github/stars/aws-cloudformation/cloudformation-guard?style=for-the-badge) |
 | **cnspec** | [https://github.com/mondoohq/cnspec](https://github.com/mondoohq/cnspec) | cnspec is a cloud-native and powerful Policy as Code engine to assess the security and compliance of your business-critical infrastructure. cnspec finds vulnerabilities and misconfigurations on all systems in your infrastructure including: public and private cloud environments, Kubernetes clusters, containers, container registries, servers and endpoints, SaaS products, infrastructure as code, APIs, and more. |![cf-guard](https://img.shields.io/github/stars/mondoohq/cnspec?style=for-the-badge) |
+| **agent-evidence-admission** | [https://github.com/probityai/agent-evidence-admission](https://github.com/probityai/agent-evidence-admission) | Kubernetes admission policies for OPA/Rego, Kyverno and sigstore policy-controller that admit or refuse a workload on the in-toto agent execution evidence attached to its image |![agent-evidence-admission](https://img.shields.io/github/stars/probityai/agent-evidence-admission?style=for-the-badge)|
 
 
 ## Chaos engineering
