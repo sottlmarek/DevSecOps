@@ -149,6 +149,7 @@ Dependency security testing and analysis is very important part of discovering s
 | **Security Scorecards** | [https://securityscorecards.dev](https://securityscorecards.dev) | Checks for several security health metrics on open source libraries and provides a score (0-10) to be considered in the decision making of what libraries to use. |![scorecard](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge)| 
 | **Syft** | [https://github.com/anchore/syft](https://github.com/anchore/syft) | CLI tool and library for generating an SBOM from container images (and filesystems). |![syft](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge)| 
 | **OSS Review Toolkit** | [https://github.com/oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | A suite of tools to automate software compliance checks. |![ort](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=for-the-badge)| 
+| **Sapper** | [https://github.com/Perruer/sapper](https://github.com/Perruer/sapper) | Graph of the **SBOMs** of all your products plus OSV advisories: shows which products each vulnerability reaches and through which dependencies, known-exploited (CISA KEV) and likely-exploited (EPSS) first, with OpenVEX. |![sapper](https://img.shields.io/github/stars/Perruer/sapper?style=for-the-badge)| 
 
 ## Supply chain specific tools 
 
