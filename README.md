@@ -393,6 +393,7 @@ Event driven security help to drive, automate and execute tasks for security pro
 | **Camunda** | [https://github.com/camunda/camunda-bpm-platform](https://github.com/camunda/camunda-bpm-platform) | Workflow and process automation |![Camunda](https://img.shields.io/github/stars/camunda/camunda-bpm-platform?style=for-the-badge)| 
 | **DefectDojo** | [https://github.com/DefectDojo/django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Security orchestration and vulnerability management platform |![DefectDojo](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=for-the-badge) | 
 | **Faraday** | [https://github.com/infobyte/faraday](https://github.com/infobyte/faraday) | Security suite for Security Orchestration, vulnerability management and centralized information |![Faraday](https://img.shields.io/github/stars/infobyte/faraday) |
+| **Draugr** | [https://github.com/draugr-dev/draugr](https://github.com/draugr-dev/draugr) | Runs open-source scanners (Trivy, Semgrep, Gitleaks and others) in CI from one descriptor file and ranks each finding by the exposure and criticality of the component it is in |![Draugr](https://img.shields.io/github/stars/draugr-dev/draugr?style=for-the-badge)|
 
 ## AI
 
