@@ -402,6 +402,7 @@ Tools leveraging AI, LLMs, or agentic workflows for security research, analysis,
 | :---------- | :---------- | :---------- | :----------: |
 | **KubeStellar Console** | [https://github.com/kubestellar/console](https://github.com/kubestellar/console) | Open source AI-powered multi-cluster Kubernetes dashboard with Falco, OPA/Gatekeeper, and Kyverno compliance dashboards for security observability across hybrid edge and cloud. CNCF Sandbox project. |![KubeStellar Console](https://img.shields.io/github/stars/kubestellar/console?style=for-the-badge) |
 | **Cynative** | [https://github.com/cynative/cynative](https://github.com/cynative/cynative) | Agentic security CLI that runs code in a built-in sandbox to research cloud, code and runtime. Read-only enforced by default | ![cynative](https://img.shields.io/github/stars/cynative/cynative?style=for-the-badge) |
+| **RedAmon** | [https://github.com/samugit83/redamon](https://github.com/samugit83/redamon) | Self-hosted AI penetration testing framework that maps the attack surface into a graph, exploits it from a Kali sandbox with human approval gates, and opens pull requests with fixes | ![redamon](https://img.shields.io/github/stars/samugit83/redamon?style=for-the-badge) |
 
 # Methodologies, whitepapers and architecture
 
