@@ -183,6 +183,7 @@ Static code review tools working with source code and looking for known patterns
 | **Bearer** | [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer) | Detect security issues in various languages (JavaScript/TypeScript, Ruby, Java, PHP...) . |![Safety](https://img.shields.io/github/stars/Bearer/bearer?style=for-the-badge) | 
 | **mobsfscan** | [https://github.com/MobSF/mobsfscan](https://github.com/MobSF/mobsfscan) | Detect security issues in Android and iOS source code (Java/Kotlin and Objective C/Swift)|![Safety](https://img.shields.io/github/stars/MobSF/mobsfscan?style=for-the-badge) |
 | **qScan** | [https://github.com/quantakrypto/pqc-tools](https://github.com/quantakrypto/pqc-tools) | SAST scanner that finds quantum-vulnerable classical crypto (RSA/ECDSA/ECDH/DH) across 14 languages; emits CBOM/SBOM/SARIF/OpenVEX |![qScan](https://img.shields.io/github/stars/quantakrypto/pqc-tools?style=for-the-badge) |
+| **Penthera** | [https://github.com/danoszz/penthera](https://github.com/danoszz/penthera) | Offline, rule-based checks for secrets, code-execution sinks, dependency capabilities and typosquats, and AI agent config (skills, MCP servers, hooks). SARIF output, MCP server and Agent Skill |![Penthera](https://img.shields.io/github/stars/danoszz/penthera?style=for-the-badge) | 
 
 **Note:** Semgrep is free CLI tool, however some rulesets (https://semgrep.dev/r) are having various licences, some can be free to use and can be commercial.  
 
