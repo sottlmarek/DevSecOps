@@ -162,6 +162,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
 | **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **extaudit** | [https://github.com/hamarshehmhmd/extaudit](https://github.com/hamarshehmhmd/extaudit) | Inventory and audit editor extensions across VS Code, Cursor, Windsurf, VSCodium and other forks: allowlist/blocklist, update cooldown, hidden-Unicode (GlassWorm) detection, update diffs and one-command removal |![extaudit](https://img.shields.io/github/stars/hamarshehmhmd/extaudit?style=for-the-badge)|
 
 
 ## SAST
