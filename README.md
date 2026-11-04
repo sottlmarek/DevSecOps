@@ -149,6 +149,7 @@ Dependency security testing and analysis is very important part of discovering s
 | **Security Scorecards** | [https://securityscorecards.dev](https://securityscorecards.dev) | Checks for several security health metrics on open source libraries and provides a score (0-10) to be considered in the decision making of what libraries to use. |![scorecard](https://img.shields.io/github/stars/ossf/scorecard?style=for-the-badge)| 
 | **Syft** | [https://github.com/anchore/syft](https://github.com/anchore/syft) | CLI tool and library for generating an SBOM from container images (and filesystems). |![syft](https://img.shields.io/github/stars/anchore/syft?style=for-the-badge)| 
 | **OSS Review Toolkit** | [https://github.com/oss-review-toolkit/ort](https://github.com/oss-review-toolkit/ort) | A suite of tools to automate software compliance checks. |![ort](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=for-the-badge)| 
+| **licensegate** | [https://github.com/agustinnb/licensegate](https://github.com/agustinnb/licensegate) | npm license gate by how you ship (SaaS, distributed app, library or internal): resolves SPDX expressions and LICENSE texts, fails CI on the licenses that block your mode, writes a CycloneDX **SBOM** and third-party notices. Offline, zero dependencies. |![licensegate](https://img.shields.io/github/stars/agustinnb/licensegate?style=for-the-badge)|
 
 ## Supply chain specific tools 
 
