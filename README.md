@@ -123,6 +123,7 @@ Secrets management includes managing, versioning, encryption, discovery, rotatin
 | **Knox** | [https://github.com/pinterest/knox](https://github.com/pinterest/knox) | Knox is a service for storing and rotation of secrets, keys, and passwords used by other services |![Knox](https://img.shields.io/github/stars/Pinterest/Knox?style=for-the-badge)|
 | **Chef vault** | [https://github.com/chef/chef-vault](https://github.com/chef/chef-vault) |  allows you to encrypt a Chef Data Bag Item |![Chef vault](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge)|
 | **Ansible vault** | [Ansible vault docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html#ansible-vault) |  Encryption/decryption utility for Ansible data files |![Ansible vault](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge)|
+| **keydrift** | [https://github.com/sudodrift/keydrift](https://github.com/sudodrift/keydrift) | Finds API keys on a developer machine (env files, shell history, AI agent logs, tool configs) without printing them, and lists what to rotate first after an incident |![keydrift](https://img.shields.io/github/stars/sudodrift/keydrift?style=for-the-badge)|
 
 ## OSS and Dependency management
 
@@ -162,6 +163,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
 | **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **releasedrift** | [https://github.com/sudodrift/releasedrift](https://github.com/sudodrift/releasedrift) | Finds GitHub release downloads in a source tree, flags the ones not pinned to a SHA-256 and detects release files replaced under the same tag |![releasedrift](https://img.shields.io/github/stars/sudodrift/releasedrift?style=for-the-badge)|
 
 
 ## SAST
