@@ -263,6 +263,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **watchtower** | [https://github.com/openserbia/watchtower](https://github.com/openserbia/watchtower) | Updates the running version of your containerized app (maintained fork; upstream containrrr archived) |![watchtower](https://img.shields.io/github/stars/openserbia/watchtower?style=for-the-badge) |
 | **Grype** | [https://github.com/anchore/grype](https://github.com/anchore/grype) | Vulnerability scanner for container images (and also filesystems). |![Grype](https://img.shields.io/github/stars/anchore/grype?style=for-the-badge) |
 | **Copacetic** | [https://github.com/project-copacetic/copacetic](https://github.com/project-copacetic/copacetic) | CLI tool for directly patching container images |![Copacetic](https://img.shields.io/github/stars/project-copacetic/copacetic?style=for-the-badge) | 
+| **KestreLynx** | [https://github.com/kitsunetrail/kestrelynx](https://github.com/kitsunetrail/kestrelynx) | Scans the images of running containers with Trivy and creates pull requests that update image tags, Dockerfiles, and dependency files to fixed versions |![KestreLynx](https://img.shields.io/github/stars/kitsunetrail/kestrelynx?style=for-the-badge) |
 
 ## Multi-Cloud 
 
