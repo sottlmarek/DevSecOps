@@ -123,7 +123,7 @@ Secrets management includes managing, versioning, encryption, discovery, rotatin
 | **Knox** | [https://github.com/pinterest/knox](https://github.com/pinterest/knox) | Knox is a service for storing and rotation of secrets, keys, and passwords used by other services |![Knox](https://img.shields.io/github/stars/Pinterest/Knox?style=for-the-badge)|
 | **Chef vault** | [https://github.com/chef/chef-vault](https://github.com/chef/chef-vault) |  allows you to encrypt a Chef Data Bag Item |![Chef vault](https://img.shields.io/github/stars/chef/chef-vault?style=for-the-badge)|
 | **Ansible vault** | [Ansible vault docs](https://docs.ansible.com/ansible/latest/cli/ansible-vault.html#ansible-vault) |  Encryption/decryption utility for Ansible data files |![Ansible vault](https://img.shields.io/github/stars/ansible-community/ansible-vault?style=for-the-badge)|
-| **Envilder** | [https://github.com/macalbert/envilder](https://github.com/macalbert/envilder) | One versioned map file shared by local dev, CI and runtime, resolving secrets from AWS SSM Parameter Store or Azure Key Vault |![Envilder](https://img.shields.io/github/stars/macalbert/envilder?style=for-the-badge)|
+| **Envilder** | [https://github.com/macalbert/envilder](https://github.com/macalbert/envilder) | Stops secrets drifting across .env files, CI settings and app config: one versioned map file (names only), resolved from AWS SSM Parameter Store or Azure Key Vault in local dev, CI and runtime |![Envilder](https://img.shields.io/github/stars/macalbert/envilder?style=for-the-badge)|
 
 ## OSS and Dependency management
 
