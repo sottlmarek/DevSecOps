@@ -162,6 +162,7 @@ Supply chain is often the target of attacks. Which libraries you use can have a 
 | **kritis** | [https://github.com/grafeas/kritis](https://github.com/grafeas/kritis) | Solution for securing your software supply chain for Kubernetes apps |![Kritis](https://img.shields.io/github/stars/grafeas/kritis?style=for-the-badge)|
 | **ratify** | [https://github.com/deislabs/ratify](https://github.com/deislabs/ratify) | Artifact Ratification Framework |![ratify](https://img.shields.io/github/stars/deislabs/ratify?style=for-the-badge)|
 | **chain-bench** | [https://github.com/aquasecurity/chain-bench](https://github.com/aquasecurity/chain-bench) | Supply Chain Audit Tool |![chain-bench](https://img.shields.io/github/stars/aquasecurity/chain-bench?style=for-the-badge)| 
+| **REA** | [https://github.com/morluto/rea](https://github.com/morluto/rea) | Audits shipped executables and application bundles for exposed source maps, debug metadata, and other release risks, with a configurable CI failure threshold. | ![REA](https://img.shields.io/github/stars/morluto/rea?style=for-the-badge) |
 
 
 ## SAST
