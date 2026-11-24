@@ -183,6 +183,7 @@ Static code review tools working with source code and looking for known patterns
 | **Bearer** | [https://github.com/Bearer/bearer](https://github.com/Bearer/bearer) | Detect security issues in various languages (JavaScript/TypeScript, Ruby, Java, PHP...) . |![Safety](https://img.shields.io/github/stars/Bearer/bearer?style=for-the-badge) | 
 | **mobsfscan** | [https://github.com/MobSF/mobsfscan](https://github.com/MobSF/mobsfscan) | Detect security issues in Android and iOS source code (Java/Kotlin and Objective C/Swift)|![Safety](https://img.shields.io/github/stars/MobSF/mobsfscan?style=for-the-badge) |
 | **qScan** | [https://github.com/quantakrypto/pqc-tools](https://github.com/quantakrypto/pqc-tools) | SAST scanner that finds quantum-vulnerable classical crypto (RSA/ECDSA/ECDH/DH) across 14 languages; emits CBOM/SBOM/SARIF/OpenVEX |![qScan](https://img.shields.io/github/stars/quantakrypto/pqc-tools?style=for-the-badge) |
+| **Kavach AI** | [https://github.com/rajrajak99/kavach-ai](https://github.com/rajrajak99/kavach-ai) | Offline AST security gate for PRs with sub-16ms taint tracking and 1-click self-healing patches |![Kavach](https://img.shields.io/github/stars/rajrajak99/kavach-ai?style=for-the-badge) |
 
 **Note:** Semgrep is free CLI tool, however some rulesets (https://semgrep.dev/r) are having various licences, some can be free to use and can be commercial.  
 
