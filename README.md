@@ -202,6 +202,7 @@ Dynamic application security testing (DAST) is a type of application testing (in
 | **oss-fuzz** | [https://github.com/google/oss-fuzz ](https://github.com/google/oss-fuzz ) | OSS-Fuzz: Continuous Fuzzing for Open Source Software |![osss-fuzz](https://img.shields.io/github/stars/google/oss-fuzz?style=for-the-badge) | 
 | **nikto** | [https://github.com/sullo/nikto](https://github.com/sullo/nikto) | Nikto web server scanner |![nikto](https://img.shields.io/github/stars/sullo/nikto?style=for-the-badge) | 
 | **skipfish** | [https://code.google.com/archive/p/skipfish/](https://code.google.com/archive/p/skipfish/) | Skipfish is an active web application security reconnaissance tool|![skipfish](https://img.shields.io/github/stars/spinkham/skipfish?style=for-the-badge) | 
+| **VibeShield CLI** | [https://github.com/zColdWater/vibeshield-cli](https://github.com/zColdWater/vibeshield-cli) | MIT-licensed pre-launch DAST CLI & web auditor: checks live JS bundles for 52 secret patterns, read-only Supabase PostgREST RLS, 10 HTTP security headers, and exposed .env/.git files |![VibeShield CLI](https://img.shields.io/github/stars/zColdWater/vibeshield-cli?style=for-the-badge) | 
 
 ## IAST
 
